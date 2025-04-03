@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "bldc_driver_footprint")(type "KiCad")(uri "${KIPRJMOD}/bldc_driver_footprint.pretty")(options "")(descr ""))
+)
