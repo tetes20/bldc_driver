@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.8,
-          "height": 1.27,
-          "width": 2.54
+          "drill": 0.0,
+          "height": 1.0,
+          "width": 0.2
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -628,6 +628,30 @@
     [
       "b1c55804-10de-45a9-b77e-813878bb2e3e",
       "RADIO"
+    ],
+    [
+      "e36af495-0a96-4753-a4ce-8de2408fc02f",
+      "H_PHASE_U"
+    ],
+    [
+      "4be96250-96e3-4185-81bf-e46039721a06",
+      "H_PHASE_W"
+    ],
+    [
+      "542cf2d1-0209-486c-a27e-6603a4b6fee2",
+      "H_PHASE_V"
+    ],
+    [
+      "28ceb615-0aa0-4591-93f4-15b72051fd64",
+      "CSA"
+    ],
+    [
+      "bfaef6a6-aaa0-428c-b1e3-d1a1ac8124bb",
+      "CSA1"
+    ],
+    [
+      "5775597d-992f-4eb9-96e2-292383d600d6",
+      "CSA2"
     ]
   ],
   "text_variables": {}
