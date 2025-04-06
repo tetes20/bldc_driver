@@ -1181,7 +1181,7 @@
 	)
 	(text "https://e2e.ti.com/support/motor-drivers-group/motor-drivers/f/motor-drivers-forum/991693/faq-proper-rc-snubber-design-for-motor-drivers"
 		(exclude_from_sim no)
-		(at 193.548 31.496 0)
+		(at 92.964 174.498 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1191,7 +1191,7 @@
 	)
 	(text "Filter:\nhttps://www.st.com/resource/en/application_note/an4304-how-to-filter-the-input-of-a-highside-current-sensing-stmicroelectronics.pdf"
 		(exclude_from_sim no)
-		(at 153.416 119.888 0)
+		(at 89.154 182.372 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1934,83 +1934,6 @@
 		(uuid "f708a1d5-3581-4dd5-a2ae-52ea5b7d4f32")
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 177.8 57.15 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00960128-f942-475c-9db7-de546b25ecd0")
-		(property "Reference" "R51"
-			(at 175.006 46.736 90)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SHUNT"
-			(at 182.372 47.244 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 177.8 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 177.8 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 177.8 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "96f5a0c4-100b-42c1-ac12-b37661e0dbd2")
-		)
-		(pin "1"
-			(uuid "103855d2-f72f-42f6-b716-47cf252e0b4a")
-		)
-		(instances
-			(project "bldc_driver_hw"
-				(path "/7f946e06-72d3-4343-93fe-84e8bb5001be/204dd2e4-49da-4469-80e5-b33b5cae72be/4be96250-96e3-4185-81bf-e46039721a06"
-					(reference "R52")
-					(unit 1)
-				)
-				(path "/7f946e06-72d3-4343-93fe-84e8bb5001be/204dd2e4-49da-4469-80e5-b33b5cae72be/542cf2d1-0209-486c-a27e-6603a4b6fee2"
-					(reference "R53")
-					(unit 1)
-				)
-				(path "/7f946e06-72d3-4343-93fe-84e8bb5001be/204dd2e4-49da-4469-80e5-b33b5cae72be/e36af495-0a96-4753-a4ce-8de2408fc02f"
-					(reference "R51")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 219.71 58.42 180)
 		(unit 1)
@@ -2112,7 +2035,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 116.84 48.26 0)
 			(effects
 				(font
@@ -2187,7 +2110,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 116.84 72.39 0)
 			(effects
 				(font
@@ -2238,6 +2161,83 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:D_Schottky")
+		(at 149.86 81.28 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "20db3148-e912-48c3-bc29-10df77ea3419")
+		(property "Reference" "D9"
+			(at 152.4 79.6924 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "D_Schottky"
+			(at 155.702 84.836 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMB"
+			(at 149.86 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 149.86 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Schottky diode"
+			(at 149.86 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "704f928a-1278-4093-bb27-581b10d3a038")
+		)
+		(pin "2"
+			(uuid "2fe09297-5977-44eb-9359-f6e284d788aa")
+		)
+		(instances
+			(project "bldc_driver_hw"
+				(path "/7f946e06-72d3-4343-93fe-84e8bb5001be/204dd2e4-49da-4469-80e5-b33b5cae72be/4be96250-96e3-4185-81bf-e46039721a06"
+					(reference "D12")
+					(unit 1)
+				)
+				(path "/7f946e06-72d3-4343-93fe-84e8bb5001be/204dd2e4-49da-4469-80e5-b33b5cae72be/542cf2d1-0209-486c-a27e-6603a4b6fee2"
+					(reference "D15")
+					(unit 1)
+				)
+				(path "/7f946e06-72d3-4343-93fe-84e8bb5001be/204dd2e4-49da-4469-80e5-b33b5cae72be/e36af495-0a96-4753-a4ce-8de2408fc02f"
+					(reference "D9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 127 83.82 180)
 		(unit 1)
@@ -2262,7 +2262,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 127 83.82 0)
 			(effects
 				(font
@@ -2610,84 +2610,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_Schottky")
-		(at 149.86 81.28 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(uuid "7bace8a6-bb35-4071-8a95-0eba7caafc05")
-		(property "Reference" "D9"
-			(at 152.4 79.6924 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "D_Schottky"
-			(at 155.956 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 149.86 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 149.86 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Schottky diode"
-			(at 149.86 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c7ff7a42-8c76-4bf0-90b1-5f8e7a36d9fe")
-		)
-		(pin "2"
-			(uuid "cf499575-a8d8-4d26-a6b2-73050c063f42")
-		)
-		(instances
-			(project "bldc_driver_hw"
-				(path "/7f946e06-72d3-4343-93fe-84e8bb5001be/204dd2e4-49da-4469-80e5-b33b5cae72be/4be96250-96e3-4185-81bf-e46039721a06"
-					(reference "D12")
-					(unit 1)
-				)
-				(path "/7f946e06-72d3-4343-93fe-84e8bb5001be/204dd2e4-49da-4469-80e5-b33b5cae72be/542cf2d1-0209-486c-a27e-6603a4b6fee2"
-					(reference "D15")
-					(unit 1)
-				)
-				(path "/7f946e06-72d3-4343-93fe-84e8bb5001be/204dd2e4-49da-4469-80e5-b33b5cae72be/e36af495-0a96-4753-a4ce-8de2408fc02f"
-					(reference "D9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small")
 		(at 114.3 54.61 90)
 		(unit 1)
@@ -2712,7 +2634,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 114.3 54.61 0)
 			(effects
 				(font
@@ -2787,7 +2709,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 128.27 58.42 0)
 			(effects
 				(font
@@ -3170,7 +3092,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 219.71 76.2 0)
 			(effects
 				(font
@@ -3215,6 +3137,83 @@
 				)
 				(path "/7f946e06-72d3-4343-93fe-84e8bb5001be/204dd2e4-49da-4469-80e5-b33b5cae72be/e36af495-0a96-4753-a4ce-8de2408fc02f"
 					(reference "R27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 177.8 62.23 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ae8dbe6e-1d77-4b73-89e5-d64ef9371d7d")
+		(property "Reference" "R68"
+			(at 177.038 64.77 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "30m"
+			(at 181.61 64.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric"
+			(at 177.8 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 177.8 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 177.8 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9f934d0a-e5f2-4a7f-8069-32fe029d0b63")
+		)
+		(pin "1"
+			(uuid "f75a3f2d-577a-4ead-88eb-3f7343fe782a")
+		)
+		(instances
+			(project "bldc_driver_hw"
+				(path "/7f946e06-72d3-4343-93fe-84e8bb5001be/204dd2e4-49da-4469-80e5-b33b5cae72be/4be96250-96e3-4185-81bf-e46039721a06"
+					(reference "R69")
+					(unit 1)
+				)
+				(path "/7f946e06-72d3-4343-93fe-84e8bb5001be/204dd2e4-49da-4469-80e5-b33b5cae72be/542cf2d1-0209-486c-a27e-6603a4b6fee2"
+					(reference "R77")
+					(unit 1)
+				)
+				(path "/7f946e06-72d3-4343-93fe-84e8bb5001be/204dd2e4-49da-4469-80e5-b33b5cae72be/e36af495-0a96-4753-a4ce-8de2408fc02f"
+					(reference "R68")
 					(unit 1)
 				)
 			)
@@ -3482,7 +3481,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SMB"
 			(at 149.86 55.88 0)
 			(effects
 				(font
@@ -3542,7 +3541,7 @@
 		(dnp no)
 		(uuid "d90cb37c-88da-4912-be10-95d96a4f2774")
 		(property "Reference" "R54"
-			(at 175.006 44.958 90)
+			(at 177.038 54.61 90)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -3550,8 +3549,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SHUNT"
-			(at 182.372 45.212 90)
+		(property "Value" "30m"
+			(at 181.61 54.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3559,7 +3558,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric"
 			(at 177.8 52.07 0)
 			(effects
 				(font
@@ -3611,83 +3610,6 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 177.8 62.23 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e1998516-2c70-4859-a53f-86a0dabbc09b")
-		(property "Reference" "R25"
-			(at 175.006 48.514 90)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SHUNT"
-			(at 182.118 49.276 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 177.8 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 177.8 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 177.8 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "aa0878f9-a9e1-48aa-a07f-31163bfdb3c3")
-		)
-		(pin "1"
-			(uuid "5e4822e5-7da1-4f75-a88c-2a100e40b10b")
-		)
-		(instances
-			(project "bldc_driver_hw"
-				(path "/7f946e06-72d3-4343-93fe-84e8bb5001be/204dd2e4-49da-4469-80e5-b33b5cae72be/4be96250-96e3-4185-81bf-e46039721a06"
-					(reference "R36")
-					(unit 1)
-				)
-				(path "/7f946e06-72d3-4343-93fe-84e8bb5001be/204dd2e4-49da-4469-80e5-b33b5cae72be/542cf2d1-0209-486c-a27e-6603a4b6fee2"
-					(reference "R47")
-					(unit 1)
-				)
-				(path "/7f946e06-72d3-4343-93fe-84e8bb5001be/204dd2e4-49da-4469-80e5-b33b5cae72be/e36af495-0a96-4753-a4ce-8de2408fc02f"
-					(reference "R25")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
 		(at 219.71 50.8 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3696,7 +3618,7 @@
 		(dnp yes)
 		(uuid "e44e1075-3bcc-4885-82d4-0f7bca49d541")
 		(property "Reference" "R26"
-			(at 223.774 50.038 0)
+			(at 225.298 49.784 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -3713,7 +3635,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 219.71 50.8 0)
 			(effects
 				(font
@@ -3765,6 +3687,83 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
+		(at 177.8 57.15 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e49084ec-e794-490c-ade8-49c9b26698c0")
+		(property "Reference" "R65"
+			(at 177.038 59.69 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "30m"
+			(at 181.61 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric"
+			(at 177.8 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 177.8 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 177.8 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5062fc09-eb67-462c-b9ed-24002a473e25")
+		)
+		(pin "1"
+			(uuid "e9944a3c-375c-4310-9706-52a92aba78e5")
+		)
+		(instances
+			(project "bldc_driver_hw"
+				(path "/7f946e06-72d3-4343-93fe-84e8bb5001be/204dd2e4-49da-4469-80e5-b33b5cae72be/4be96250-96e3-4185-81bf-e46039721a06"
+					(reference "R66")
+					(unit 1)
+				)
+				(path "/7f946e06-72d3-4343-93fe-84e8bb5001be/204dd2e4-49da-4469-80e5-b33b5cae72be/542cf2d1-0209-486c-a27e-6603a4b6fee2"
+					(reference "R67")
+					(unit 1)
+				)
+				(path "/7f946e06-72d3-4343-93fe-84e8bb5001be/204dd2e4-49da-4469-80e5-b33b5cae72be/e36af495-0a96-4753-a4ce-8de2408fc02f"
+					(reference "R65")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
 		(at 114.3 80.01 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3788,7 +3787,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 114.3 80.01 0)
 			(effects
 				(font
