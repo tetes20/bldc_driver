@@ -1942,7 +1942,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "01671876-6707-4817-a0fb-055f75060421")
-		(property "Reference" "C25"
+		(property "Reference" "C51"
 			(at 226.314 57.404 0)
 			(effects
 				(font
@@ -1960,7 +1960,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 219.71 58.42 0)
 			(effects
 				(font
@@ -1996,15 +1996,15 @@
 		(instances
 			(project "bldc_driver_hw"
 				(path "/7f946e06-72d3-4343-93fe-84e8bb5001be/204dd2e4-49da-4469-80e5-b33b5cae72be/4be96250-96e3-4185-81bf-e46039721a06"
-					(reference "C30")
+					(reference "C53")
 					(unit 1)
 				)
 				(path "/7f946e06-72d3-4343-93fe-84e8bb5001be/204dd2e4-49da-4469-80e5-b33b5cae72be/542cf2d1-0209-486c-a27e-6603a4b6fee2"
-					(reference "C35")
+					(reference "C55")
 					(unit 1)
 				)
 				(path "/7f946e06-72d3-4343-93fe-84e8bb5001be/204dd2e4-49da-4469-80e5-b33b5cae72be/e36af495-0a96-4753-a4ce-8de2408fc02f"
-					(reference "C25")
+					(reference "C51")
 					(unit 1)
 				)
 			)
@@ -2019,7 +2019,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "1adcc78d-0d6b-4ed5-a3a3-e8c66d836ebd")
-		(property "Reference" "R19"
+		(property "Reference" "R35"
 			(at 116.84 46.482 90)
 			(effects
 				(font
@@ -2071,15 +2071,15 @@
 		(instances
 			(project "bldc_driver_hw"
 				(path "/7f946e06-72d3-4343-93fe-84e8bb5001be/204dd2e4-49da-4469-80e5-b33b5cae72be/4be96250-96e3-4185-81bf-e46039721a06"
-					(reference "R30")
+					(reference "R46")
 					(unit 1)
 				)
 				(path "/7f946e06-72d3-4343-93fe-84e8bb5001be/204dd2e4-49da-4469-80e5-b33b5cae72be/542cf2d1-0209-486c-a27e-6603a4b6fee2"
-					(reference "R41")
+					(reference "R57")
 					(unit 1)
 				)
 				(path "/7f946e06-72d3-4343-93fe-84e8bb5001be/204dd2e4-49da-4469-80e5-b33b5cae72be/e36af495-0a96-4753-a4ce-8de2408fc02f"
-					(reference "R19")
+					(reference "R35")
 					(unit 1)
 				)
 			)
@@ -2094,7 +2094,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "1cb65b22-b97e-45b8-912f-d3a73687ac86")
-		(property "Reference" "R20"
+		(property "Reference" "R36"
 			(at 116.84 70.612 90)
 			(effects
 				(font
@@ -2146,15 +2146,15 @@
 		(instances
 			(project "bldc_driver_hw"
 				(path "/7f946e06-72d3-4343-93fe-84e8bb5001be/204dd2e4-49da-4469-80e5-b33b5cae72be/4be96250-96e3-4185-81bf-e46039721a06"
-					(reference "R31")
+					(reference "R47")
 					(unit 1)
 				)
 				(path "/7f946e06-72d3-4343-93fe-84e8bb5001be/204dd2e4-49da-4469-80e5-b33b5cae72be/542cf2d1-0209-486c-a27e-6603a4b6fee2"
-					(reference "R42")
+					(reference "R58")
 					(unit 1)
 				)
 				(path "/7f946e06-72d3-4343-93fe-84e8bb5001be/204dd2e4-49da-4469-80e5-b33b5cae72be/e36af495-0a96-4753-a4ce-8de2408fc02f"
-					(reference "R20")
+					(reference "R36")
 					(unit 1)
 				)
 			)
@@ -2169,7 +2169,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "20db3148-e912-48c3-bc29-10df77ea3419")
-		(property "Reference" "D9"
+		(property "Reference" "D10"
 			(at 152.4 79.6924 90)
 			(effects
 				(font
@@ -2223,15 +2223,15 @@
 		(instances
 			(project "bldc_driver_hw"
 				(path "/7f946e06-72d3-4343-93fe-84e8bb5001be/204dd2e4-49da-4469-80e5-b33b5cae72be/4be96250-96e3-4185-81bf-e46039721a06"
-					(reference "D12")
+					(reference "D14")
 					(unit 1)
 				)
 				(path "/7f946e06-72d3-4343-93fe-84e8bb5001be/204dd2e4-49da-4469-80e5-b33b5cae72be/542cf2d1-0209-486c-a27e-6603a4b6fee2"
-					(reference "D15")
+					(reference "D18")
 					(unit 1)
 				)
 				(path "/7f946e06-72d3-4343-93fe-84e8bb5001be/204dd2e4-49da-4469-80e5-b33b5cae72be/e36af495-0a96-4753-a4ce-8de2408fc02f"
-					(reference "D9")
+					(reference "D10")
 					(unit 1)
 				)
 			)
@@ -2246,7 +2246,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "22566182-00eb-42de-8c94-fea0add6f19e")
-		(property "Reference" "R21"
+		(property "Reference" "R37"
 			(at 124.968 83.82 90)
 			(effects
 				(font
@@ -2298,15 +2298,15 @@
 		(instances
 			(project "bldc_driver_hw"
 				(path "/7f946e06-72d3-4343-93fe-84e8bb5001be/204dd2e4-49da-4469-80e5-b33b5cae72be/4be96250-96e3-4185-81bf-e46039721a06"
-					(reference "R32")
+					(reference "R48")
 					(unit 1)
 				)
 				(path "/7f946e06-72d3-4343-93fe-84e8bb5001be/204dd2e4-49da-4469-80e5-b33b5cae72be/542cf2d1-0209-486c-a27e-6603a4b6fee2"
-					(reference "R43")
+					(reference "R59")
 					(unit 1)
 				)
 				(path "/7f946e06-72d3-4343-93fe-84e8bb5001be/204dd2e4-49da-4469-80e5-b33b5cae72be/e36af495-0a96-4753-a4ce-8de2408fc02f"
-					(reference "R21")
+					(reference "R37")
 					(unit 1)
 				)
 			)
@@ -2321,7 +2321,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "561da5e2-6592-4be3-ae3b-0c87faa1935b")
-		(property "Reference" "TP5"
+		(property "Reference" "TP31"
 			(at 124.46 69.088 0)
 			(effects
 				(font
@@ -2340,7 +2340,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 127 72.39 0)
 			(effects
 				(font
@@ -2373,15 +2373,15 @@
 		(instances
 			(project "bldc_driver_hw"
 				(path "/7f946e06-72d3-4343-93fe-84e8bb5001be/204dd2e4-49da-4469-80e5-b33b5cae72be/4be96250-96e3-4185-81bf-e46039721a06"
-					(reference "TP7")
+					(reference "TP33")
 					(unit 1)
 				)
 				(path "/7f946e06-72d3-4343-93fe-84e8bb5001be/204dd2e4-49da-4469-80e5-b33b5cae72be/542cf2d1-0209-486c-a27e-6603a4b6fee2"
-					(reference "TP9")
+					(reference "TP35")
 					(unit 1)
 				)
 				(path "/7f946e06-72d3-4343-93fe-84e8bb5001be/204dd2e4-49da-4469-80e5-b33b5cae72be/e36af495-0a96-4753-a4ce-8de2408fc02f"
-					(reference "TP5")
+					(reference "TP31")
 					(unit 1)
 				)
 			)
@@ -2396,7 +2396,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "57f47aaa-a61b-4ca7-b333-ef7201b141dc")
-		(property "Reference" "D16"
+		(property "Reference" "D8"
 			(at 110.49 66.548 0)
 			(effects
 				(font
@@ -2448,15 +2448,15 @@
 		(instances
 			(project "bldc_driver_hw"
 				(path "/7f946e06-72d3-4343-93fe-84e8bb5001be/204dd2e4-49da-4469-80e5-b33b5cae72be/4be96250-96e3-4185-81bf-e46039721a06"
-					(reference "D17")
+					(reference "D12")
 					(unit 1)
 				)
 				(path "/7f946e06-72d3-4343-93fe-84e8bb5001be/204dd2e4-49da-4469-80e5-b33b5cae72be/542cf2d1-0209-486c-a27e-6603a4b6fee2"
-					(reference "D18")
+					(reference "D16")
 					(unit 1)
 				)
 				(path "/7f946e06-72d3-4343-93fe-84e8bb5001be/204dd2e4-49da-4469-80e5-b33b5cae72be/e36af495-0a96-4753-a4ce-8de2408fc02f"
-					(reference "D16")
+					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -2471,7 +2471,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5da27f7f-a9f0-4567-816f-e529b1688194")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR0121"
 			(at 138.43 102.87 0)
 			(effects
 				(font
@@ -2521,15 +2521,15 @@
 		(instances
 			(project "bldc_driver_hw"
 				(path "/7f946e06-72d3-4343-93fe-84e8bb5001be/204dd2e4-49da-4469-80e5-b33b5cae72be/4be96250-96e3-4185-81bf-e46039721a06"
-					(reference "#PWR039")
+					(reference "#PWR0125")
 					(unit 1)
 				)
 				(path "/7f946e06-72d3-4343-93fe-84e8bb5001be/204dd2e4-49da-4469-80e5-b33b5cae72be/542cf2d1-0209-486c-a27e-6603a4b6fee2"
-					(reference "#PWR040")
+					(reference "#PWR0129")
 					(unit 1)
 				)
 				(path "/7f946e06-72d3-4343-93fe-84e8bb5001be/204dd2e4-49da-4469-80e5-b33b5cae72be/e36af495-0a96-4753-a4ce-8de2408fc02f"
-					(reference "#PWR034")
+					(reference "#PWR0121")
 					(unit 1)
 				)
 			)
@@ -2545,7 +2545,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "635cb014-91ff-435c-bafc-357879f7be69")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR0122"
 			(at 219.71 50.8 0)
 			(effects
 				(font
@@ -2595,15 +2595,15 @@
 		(instances
 			(project "bldc_driver_hw"
 				(path "/7f946e06-72d3-4343-93fe-84e8bb5001be/204dd2e4-49da-4469-80e5-b33b5cae72be/4be96250-96e3-4185-81bf-e46039721a06"
-					(reference "#PWR043")
+					(reference "#PWR0126")
 					(unit 1)
 				)
 				(path "/7f946e06-72d3-4343-93fe-84e8bb5001be/204dd2e4-49da-4469-80e5-b33b5cae72be/542cf2d1-0209-486c-a27e-6603a4b6fee2"
-					(reference "#PWR049")
+					(reference "#PWR0130")
 					(unit 1)
 				)
 				(path "/7f946e06-72d3-4343-93fe-84e8bb5001be/204dd2e4-49da-4469-80e5-b33b5cae72be/e36af495-0a96-4753-a4ce-8de2408fc02f"
-					(reference "#PWR037")
+					(reference "#PWR0122")
 					(unit 1)
 				)
 			)
@@ -2618,7 +2618,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "85d2fb9e-0294-4281-a315-a7b39c75f2f1")
-		(property "Reference" "R28"
+		(property "Reference" "R33"
 			(at 114.3 52.832 90)
 			(effects
 				(font
@@ -2670,15 +2670,15 @@
 		(instances
 			(project "bldc_driver_hw"
 				(path "/7f946e06-72d3-4343-93fe-84e8bb5001be/204dd2e4-49da-4469-80e5-b33b5cae72be/4be96250-96e3-4185-81bf-e46039721a06"
-					(reference "R39")
+					(reference "R44")
 					(unit 1)
 				)
 				(path "/7f946e06-72d3-4343-93fe-84e8bb5001be/204dd2e4-49da-4469-80e5-b33b5cae72be/542cf2d1-0209-486c-a27e-6603a4b6fee2"
-					(reference "R50")
+					(reference "R55")
 					(unit 1)
 				)
 				(path "/7f946e06-72d3-4343-93fe-84e8bb5001be/204dd2e4-49da-4469-80e5-b33b5cae72be/e36af495-0a96-4753-a4ce-8de2408fc02f"
-					(reference "R28")
+					(reference "R33")
 					(unit 1)
 				)
 			)
@@ -2693,7 +2693,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "86e5ce36-8841-456f-adda-363c7512aab1")
-		(property "Reference" "R22"
+		(property "Reference" "R38"
 			(at 126.238 58.42 90)
 			(effects
 				(font
@@ -2745,15 +2745,15 @@
 		(instances
 			(project "bldc_driver_hw"
 				(path "/7f946e06-72d3-4343-93fe-84e8bb5001be/204dd2e4-49da-4469-80e5-b33b5cae72be/4be96250-96e3-4185-81bf-e46039721a06"
-					(reference "R33")
+					(reference "R49")
 					(unit 1)
 				)
 				(path "/7f946e06-72d3-4343-93fe-84e8bb5001be/204dd2e4-49da-4469-80e5-b33b5cae72be/542cf2d1-0209-486c-a27e-6603a4b6fee2"
-					(reference "R44")
+					(reference "R60")
 					(unit 1)
 				)
 				(path "/7f946e06-72d3-4343-93fe-84e8bb5001be/204dd2e4-49da-4469-80e5-b33b5cae72be/e36af495-0a96-4753-a4ce-8de2408fc02f"
-					(reference "R22")
+					(reference "R38")
 					(unit 1)
 				)
 			)
@@ -2769,7 +2769,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "87d5b1b9-f1f2-4344-890d-c513134feafa")
-		(property "Reference" "D11"
+		(property "Reference" "D7"
 			(at 110.1725 41.91 0)
 			(effects
 				(font
@@ -2821,15 +2821,15 @@
 		(instances
 			(project ""
 				(path "/7f946e06-72d3-4343-93fe-84e8bb5001be/204dd2e4-49da-4469-80e5-b33b5cae72be/4be96250-96e3-4185-81bf-e46039721a06"
-					(reference "D13")
+					(reference "D11")
 					(unit 1)
 				)
 				(path "/7f946e06-72d3-4343-93fe-84e8bb5001be/204dd2e4-49da-4469-80e5-b33b5cae72be/542cf2d1-0209-486c-a27e-6603a4b6fee2"
-					(reference "D14")
+					(reference "D15")
 					(unit 1)
 				)
 				(path "/7f946e06-72d3-4343-93fe-84e8bb5001be/204dd2e4-49da-4469-80e5-b33b5cae72be/e36af495-0a96-4753-a4ce-8de2408fc02f"
-					(reference "D11")
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -2844,7 +2844,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8c479d0c-f265-4edb-a380-562f3393a947")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR0123"
 			(at 219.71 85.09 0)
 			(effects
 				(font
@@ -2894,15 +2894,15 @@
 		(instances
 			(project "bldc_driver_hw"
 				(path "/7f946e06-72d3-4343-93fe-84e8bb5001be/204dd2e4-49da-4469-80e5-b33b5cae72be/4be96250-96e3-4185-81bf-e46039721a06"
-					(reference "#PWR044")
+					(reference "#PWR0127")
 					(unit 1)
 				)
 				(path "/7f946e06-72d3-4343-93fe-84e8bb5001be/204dd2e4-49da-4469-80e5-b33b5cae72be/542cf2d1-0209-486c-a27e-6603a4b6fee2"
-					(reference "#PWR050")
+					(reference "#PWR0131")
 					(unit 1)
 				)
 				(path "/7f946e06-72d3-4343-93fe-84e8bb5001be/204dd2e4-49da-4469-80e5-b33b5cae72be/e36af495-0a96-4753-a4ce-8de2408fc02f"
-					(reference "#PWR038")
+					(reference "#PWR0123")
 					(unit 1)
 				)
 			)
@@ -2918,7 +2918,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "94608257-05c5-44f5-9eba-b09b66ddc8d4")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR0120"
 			(at 138.43 50.8 0)
 			(effects
 				(font
@@ -2968,15 +2968,15 @@
 		(instances
 			(project "bldc_driver_hw"
 				(path "/7f946e06-72d3-4343-93fe-84e8bb5001be/204dd2e4-49da-4469-80e5-b33b5cae72be/4be96250-96e3-4185-81bf-e46039721a06"
-					(reference "#PWR041")
+					(reference "#PWR0124")
 					(unit 1)
 				)
 				(path "/7f946e06-72d3-4343-93fe-84e8bb5001be/204dd2e4-49da-4469-80e5-b33b5cae72be/542cf2d1-0209-486c-a27e-6603a4b6fee2"
-					(reference "#PWR047")
+					(reference "#PWR0128")
 					(unit 1)
 				)
 				(path "/7f946e06-72d3-4343-93fe-84e8bb5001be/204dd2e4-49da-4469-80e5-b33b5cae72be/e36af495-0a96-4753-a4ce-8de2408fc02f"
-					(reference "#PWR035")
+					(reference "#PWR0120")
 					(unit 1)
 				)
 			)
@@ -3050,11 +3050,11 @@
 		(instances
 			(project ""
 				(path "/7f946e06-72d3-4343-93fe-84e8bb5001be/204dd2e4-49da-4469-80e5-b33b5cae72be/4be96250-96e3-4185-81bf-e46039721a06"
-					(reference "Q2")
+					(reference "Q3")
 					(unit 1)
 				)
 				(path "/7f946e06-72d3-4343-93fe-84e8bb5001be/204dd2e4-49da-4469-80e5-b33b5cae72be/542cf2d1-0209-486c-a27e-6603a4b6fee2"
-					(reference "Q9")
+					(reference "Q5")
 					(unit 1)
 				)
 				(path "/7f946e06-72d3-4343-93fe-84e8bb5001be/204dd2e4-49da-4469-80e5-b33b5cae72be/e36af495-0a96-4753-a4ce-8de2408fc02f"
@@ -3074,7 +3074,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "a73375a9-1d0d-4ecc-8393-4847e6061258")
-		(property "Reference" "R27"
+		(property "Reference" "R43"
 			(at 222.25 74.9299 0)
 			(effects
 				(font
@@ -3128,15 +3128,15 @@
 		(instances
 			(project "bldc_driver_hw"
 				(path "/7f946e06-72d3-4343-93fe-84e8bb5001be/204dd2e4-49da-4469-80e5-b33b5cae72be/4be96250-96e3-4185-81bf-e46039721a06"
-					(reference "R38")
+					(reference "R54")
 					(unit 1)
 				)
 				(path "/7f946e06-72d3-4343-93fe-84e8bb5001be/204dd2e4-49da-4469-80e5-b33b5cae72be/542cf2d1-0209-486c-a27e-6603a4b6fee2"
-					(reference "R49")
+					(reference "R65")
 					(unit 1)
 				)
 				(path "/7f946e06-72d3-4343-93fe-84e8bb5001be/204dd2e4-49da-4469-80e5-b33b5cae72be/e36af495-0a96-4753-a4ce-8de2408fc02f"
-					(reference "R27")
+					(reference "R43")
 					(unit 1)
 				)
 			)
@@ -3151,7 +3151,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ae8dbe6e-1d77-4b73-89e5-d64ef9371d7d")
-		(property "Reference" "R68"
+		(property "Reference" "R41"
 			(at 177.038 64.77 90)
 			(effects
 				(font
@@ -3205,15 +3205,15 @@
 		(instances
 			(project "bldc_driver_hw"
 				(path "/7f946e06-72d3-4343-93fe-84e8bb5001be/204dd2e4-49da-4469-80e5-b33b5cae72be/4be96250-96e3-4185-81bf-e46039721a06"
-					(reference "R69")
+					(reference "R52")
 					(unit 1)
 				)
 				(path "/7f946e06-72d3-4343-93fe-84e8bb5001be/204dd2e4-49da-4469-80e5-b33b5cae72be/542cf2d1-0209-486c-a27e-6603a4b6fee2"
-					(reference "R77")
+					(reference "R63")
 					(unit 1)
 				)
 				(path "/7f946e06-72d3-4343-93fe-84e8bb5001be/204dd2e4-49da-4469-80e5-b33b5cae72be/e36af495-0a96-4753-a4ce-8de2408fc02f"
-					(reference "R68")
+					(reference "R41")
 					(unit 1)
 				)
 			)
@@ -3228,7 +3228,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bf5aab19-eae0-4ed6-a847-65bd77005c1e")
-		(property "Reference" "TP4"
+		(property "Reference" "TP30"
 			(at 118.872 42.926 0)
 			(effects
 				(font
@@ -3247,7 +3247,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 127 48.26 0)
 			(effects
 				(font
@@ -3280,15 +3280,15 @@
 		(instances
 			(project "bldc_driver_hw"
 				(path "/7f946e06-72d3-4343-93fe-84e8bb5001be/204dd2e4-49da-4469-80e5-b33b5cae72be/4be96250-96e3-4185-81bf-e46039721a06"
-					(reference "TP6")
+					(reference "TP32")
 					(unit 1)
 				)
 				(path "/7f946e06-72d3-4343-93fe-84e8bb5001be/204dd2e4-49da-4469-80e5-b33b5cae72be/542cf2d1-0209-486c-a27e-6603a4b6fee2"
-					(reference "TP8")
+					(reference "TP34")
 					(unit 1)
 				)
 				(path "/7f946e06-72d3-4343-93fe-84e8bb5001be/204dd2e4-49da-4469-80e5-b33b5cae72be/e36af495-0a96-4753-a4ce-8de2408fc02f"
-					(reference "TP4")
+					(reference "TP30")
 					(unit 1)
 				)
 			)
@@ -3304,7 +3304,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c1a3df0d-7f35-4706-b7b8-22e95e68f378")
-		(property "Reference" "Q3"
+		(property "Reference" "Q2"
 			(at 142.24 80.0099 0)
 			(effects
 				(font
@@ -3366,11 +3366,11 @@
 					(unit 1)
 				)
 				(path "/7f946e06-72d3-4343-93fe-84e8bb5001be/204dd2e4-49da-4469-80e5-b33b5cae72be/542cf2d1-0209-486c-a27e-6603a4b6fee2"
-					(reference "Q5")
+					(reference "Q6")
 					(unit 1)
 				)
 				(path "/7f946e06-72d3-4343-93fe-84e8bb5001be/204dd2e4-49da-4469-80e5-b33b5cae72be/e36af495-0a96-4753-a4ce-8de2408fc02f"
-					(reference "Q3")
+					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -3386,7 +3386,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "c7ab0f0a-8113-4682-80d3-fbd00ae010af")
-		(property "Reference" "C26"
+		(property "Reference" "C52"
 			(at 222.25 67.3162 0)
 			(effects
 				(font
@@ -3404,7 +3404,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 219.71 68.58 0)
 			(effects
 				(font
@@ -3440,15 +3440,15 @@
 		(instances
 			(project "bldc_driver_hw"
 				(path "/7f946e06-72d3-4343-93fe-84e8bb5001be/204dd2e4-49da-4469-80e5-b33b5cae72be/4be96250-96e3-4185-81bf-e46039721a06"
-					(reference "C31")
+					(reference "C54")
 					(unit 1)
 				)
 				(path "/7f946e06-72d3-4343-93fe-84e8bb5001be/204dd2e4-49da-4469-80e5-b33b5cae72be/542cf2d1-0209-486c-a27e-6603a4b6fee2"
-					(reference "C36")
+					(reference "C56")
 					(unit 1)
 				)
 				(path "/7f946e06-72d3-4343-93fe-84e8bb5001be/204dd2e4-49da-4469-80e5-b33b5cae72be/e36af495-0a96-4753-a4ce-8de2408fc02f"
-					(reference "C26")
+					(reference "C52")
 					(unit 1)
 				)
 			)
@@ -3463,7 +3463,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "d4d4e98d-e178-4536-af30-2acd1d9c3a87")
-		(property "Reference" "D4"
+		(property "Reference" "D9"
 			(at 152.4 54.2924 90)
 			(effects
 				(font
@@ -3517,15 +3517,15 @@
 		(instances
 			(project "bldc_driver_hw"
 				(path "/7f946e06-72d3-4343-93fe-84e8bb5001be/204dd2e4-49da-4469-80e5-b33b5cae72be/4be96250-96e3-4185-81bf-e46039721a06"
-					(reference "D5")
+					(reference "D13")
 					(unit 1)
 				)
 				(path "/7f946e06-72d3-4343-93fe-84e8bb5001be/204dd2e4-49da-4469-80e5-b33b5cae72be/542cf2d1-0209-486c-a27e-6603a4b6fee2"
-					(reference "D6")
+					(reference "D17")
 					(unit 1)
 				)
 				(path "/7f946e06-72d3-4343-93fe-84e8bb5001be/204dd2e4-49da-4469-80e5-b33b5cae72be/e36af495-0a96-4753-a4ce-8de2408fc02f"
-					(reference "D4")
+					(reference "D9")
 					(unit 1)
 				)
 			)
@@ -3540,7 +3540,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d90cb37c-88da-4912-be10-95d96a4f2774")
-		(property "Reference" "R54"
+		(property "Reference" "R39"
 			(at 177.038 54.61 90)
 			(effects
 				(font
@@ -3594,15 +3594,15 @@
 		(instances
 			(project "bldc_driver_hw"
 				(path "/7f946e06-72d3-4343-93fe-84e8bb5001be/204dd2e4-49da-4469-80e5-b33b5cae72be/4be96250-96e3-4185-81bf-e46039721a06"
-					(reference "R55")
+					(reference "R50")
 					(unit 1)
 				)
 				(path "/7f946e06-72d3-4343-93fe-84e8bb5001be/204dd2e4-49da-4469-80e5-b33b5cae72be/542cf2d1-0209-486c-a27e-6603a4b6fee2"
-					(reference "R56")
+					(reference "R61")
 					(unit 1)
 				)
 				(path "/7f946e06-72d3-4343-93fe-84e8bb5001be/204dd2e4-49da-4469-80e5-b33b5cae72be/e36af495-0a96-4753-a4ce-8de2408fc02f"
-					(reference "R54")
+					(reference "R39")
 					(unit 1)
 				)
 			)
@@ -3617,7 +3617,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "e44e1075-3bcc-4885-82d4-0f7bca49d541")
-		(property "Reference" "R26"
+		(property "Reference" "R42"
 			(at 225.298 49.784 0)
 			(effects
 				(font
@@ -3626,7 +3626,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_snub"
+		(property "Value" "R_SNUB"
 			(at 229.108 52.07 0)
 			(effects
 				(font
@@ -3671,15 +3671,15 @@
 		(instances
 			(project "bldc_driver_hw"
 				(path "/7f946e06-72d3-4343-93fe-84e8bb5001be/204dd2e4-49da-4469-80e5-b33b5cae72be/4be96250-96e3-4185-81bf-e46039721a06"
-					(reference "R37")
+					(reference "R53")
 					(unit 1)
 				)
 				(path "/7f946e06-72d3-4343-93fe-84e8bb5001be/204dd2e4-49da-4469-80e5-b33b5cae72be/542cf2d1-0209-486c-a27e-6603a4b6fee2"
-					(reference "R48")
+					(reference "R64")
 					(unit 1)
 				)
 				(path "/7f946e06-72d3-4343-93fe-84e8bb5001be/204dd2e4-49da-4469-80e5-b33b5cae72be/e36af495-0a96-4753-a4ce-8de2408fc02f"
-					(reference "R26")
+					(reference "R42")
 					(unit 1)
 				)
 			)
@@ -3694,7 +3694,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e49084ec-e794-490c-ade8-49c9b26698c0")
-		(property "Reference" "R65"
+		(property "Reference" "R40"
 			(at 177.038 59.69 90)
 			(effects
 				(font
@@ -3748,15 +3748,15 @@
 		(instances
 			(project "bldc_driver_hw"
 				(path "/7f946e06-72d3-4343-93fe-84e8bb5001be/204dd2e4-49da-4469-80e5-b33b5cae72be/4be96250-96e3-4185-81bf-e46039721a06"
-					(reference "R66")
+					(reference "R51")
 					(unit 1)
 				)
 				(path "/7f946e06-72d3-4343-93fe-84e8bb5001be/204dd2e4-49da-4469-80e5-b33b5cae72be/542cf2d1-0209-486c-a27e-6603a4b6fee2"
-					(reference "R67")
+					(reference "R62")
 					(unit 1)
 				)
 				(path "/7f946e06-72d3-4343-93fe-84e8bb5001be/204dd2e4-49da-4469-80e5-b33b5cae72be/e36af495-0a96-4753-a4ce-8de2408fc02f"
-					(reference "R65")
+					(reference "R40")
 					(unit 1)
 				)
 			)
@@ -3771,7 +3771,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "faecec31-ba94-44e9-a83a-a87224772eeb")
-		(property "Reference" "R18"
+		(property "Reference" "R34"
 			(at 114.3 78.232 90)
 			(effects
 				(font
@@ -3823,15 +3823,15 @@
 		(instances
 			(project "bldc_driver_hw"
 				(path "/7f946e06-72d3-4343-93fe-84e8bb5001be/204dd2e4-49da-4469-80e5-b33b5cae72be/4be96250-96e3-4185-81bf-e46039721a06"
-					(reference "R29")
+					(reference "R45")
 					(unit 1)
 				)
 				(path "/7f946e06-72d3-4343-93fe-84e8bb5001be/204dd2e4-49da-4469-80e5-b33b5cae72be/542cf2d1-0209-486c-a27e-6603a4b6fee2"
-					(reference "R40")
+					(reference "R56")
 					(unit 1)
 				)
 				(path "/7f946e06-72d3-4343-93fe-84e8bb5001be/204dd2e4-49da-4469-80e5-b33b5cae72be/e36af495-0a96-4753-a4ce-8de2408fc02f"
-					(reference "R18")
+					(reference "R34")
 					(unit 1)
 				)
 			)

@@ -793,7 +793,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "031311cb-4424-4b2e-8d7b-dd39815ea25c")
-		(property "Reference" "#PWR0110"
+		(property "Reference" "#PWR0149"
 			(at 151.13 68.58 0)
 			(effects
 				(font
@@ -843,7 +843,7 @@
 		(instances
 			(project "bldc_driver_hw"
 				(path "/7f946e06-72d3-4343-93fe-84e8bb5001be/f2fa74ce-bfa7-4251-8bc0-1b2737017ea5"
-					(reference "#PWR0110")
+					(reference "#PWR0149")
 					(unit 1)
 				)
 			)
@@ -859,7 +859,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0a2ebb2b-d3dc-4fe9-a953-1e6df935ff8f")
-		(property "Reference" "#PWR0109"
+		(property "Reference" "#PWR0147"
 			(at 142.24 68.58 0)
 			(effects
 				(font
@@ -909,7 +909,7 @@
 		(instances
 			(project ""
 				(path "/7f946e06-72d3-4343-93fe-84e8bb5001be/f2fa74ce-bfa7-4251-8bc0-1b2737017ea5"
-					(reference "#PWR0109")
+					(reference "#PWR0147")
 					(unit 1)
 				)
 			)
@@ -925,7 +925,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "41eb0928-7a0e-445f-adec-54c16a67de93")
-		(property "Reference" "R45"
+		(property "Reference" "R73"
 			(at 153.67 71.1199 0)
 			(effects
 				(font
@@ -979,7 +979,7 @@
 		(instances
 			(project "bldc_driver_hw"
 				(path "/7f946e06-72d3-4343-93fe-84e8bb5001be/f2fa74ce-bfa7-4251-8bc0-1b2737017ea5"
-					(reference "R45")
+					(reference "R73")
 					(unit 1)
 				)
 			)
@@ -995,7 +995,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4ffaf594-e7fc-4eaa-a38d-6d2b49196cc3")
-		(property "Reference" "#PWR0112"
+		(property "Reference" "#PWR0148"
 			(at 142.24 109.22 0)
 			(effects
 				(font
@@ -1045,7 +1045,7 @@
 		(instances
 			(project ""
 				(path "/7f946e06-72d3-4343-93fe-84e8bb5001be/f2fa74ce-bfa7-4251-8bc0-1b2737017ea5"
-					(reference "#PWR0112")
+					(reference "#PWR0148")
 					(unit 1)
 				)
 			)
@@ -1061,7 +1061,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "54ae9682-d60e-4456-8cf7-2c65933691b1")
-		(property "Reference" "#PWR0114"
+		(property "Reference" "#PWR0152"
 			(at 160.02 109.22 0)
 			(effects
 				(font
@@ -1111,7 +1111,7 @@
 		(instances
 			(project "bldc_driver_hw"
 				(path "/7f946e06-72d3-4343-93fe-84e8bb5001be/f2fa74ce-bfa7-4251-8bc0-1b2737017ea5"
-					(reference "#PWR0114")
+					(reference "#PWR0152")
 					(unit 1)
 				)
 			)
@@ -1127,7 +1127,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6b391fc0-469a-4581-948a-141633943a1b")
-		(property "Reference" "#PWR0111"
+		(property "Reference" "#PWR0151"
 			(at 160.02 68.58 0)
 			(effects
 				(font
@@ -1177,7 +1177,7 @@
 		(instances
 			(project "bldc_driver_hw"
 				(path "/7f946e06-72d3-4343-93fe-84e8bb5001be/f2fa74ce-bfa7-4251-8bc0-1b2737017ea5"
-					(reference "#PWR0111")
+					(reference "#PWR0151")
 					(unit 1)
 				)
 			)
@@ -1193,7 +1193,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6c9b1da4-61b6-4218-9e64-0a08d754d268")
-		(property "Reference" "#PWR0113"
+		(property "Reference" "#PWR0150"
 			(at 151.13 109.22 0)
 			(effects
 				(font
@@ -1243,7 +1243,7 @@
 		(instances
 			(project "bldc_driver_hw"
 				(path "/7f946e06-72d3-4343-93fe-84e8bb5001be/f2fa74ce-bfa7-4251-8bc0-1b2737017ea5"
-					(reference "#PWR0113")
+					(reference "#PWR0150")
 					(unit 1)
 				)
 			)
@@ -1259,7 +1259,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "9a3b3efe-3e81-4483-a1a1-37bda7dd1611")
-		(property "Reference" "R35"
+		(property "Reference" "R72"
 			(at 144.78 71.1199 0)
 			(effects
 				(font
@@ -1313,7 +1313,7 @@
 		(instances
 			(project ""
 				(path "/7f946e06-72d3-4343-93fe-84e8bb5001be/f2fa74ce-bfa7-4251-8bc0-1b2737017ea5"
-					(reference "R35")
+					(reference "R72")
 					(unit 1)
 				)
 			)
@@ -1329,7 +1329,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "a995f7d1-c593-4cfe-acfc-2edcf61dd4e8")
-		(property "Reference" "R46"
+		(property "Reference" "R74"
 			(at 162.56 71.1199 0)
 			(effects
 				(font
@@ -1383,7 +1383,7 @@
 		(instances
 			(project "bldc_driver_hw"
 				(path "/7f946e06-72d3-4343-93fe-84e8bb5001be/f2fa74ce-bfa7-4251-8bc0-1b2737017ea5"
-					(reference "R46")
+					(reference "R74")
 					(unit 1)
 				)
 			)
@@ -1398,7 +1398,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "b01ef0e1-0429-4592-ae58-de4413be003e")
-		(property "Reference" "C60"
+		(property "Reference" "C71"
 			(at 161.798 97.79 0)
 			(effects
 				(font
@@ -1452,7 +1452,7 @@
 		(instances
 			(project "bldc_driver_hw"
 				(path "/7f946e06-72d3-4343-93fe-84e8bb5001be/f2fa74ce-bfa7-4251-8bc0-1b2737017ea5"
-					(reference "C60")
+					(reference "C71")
 					(unit 1)
 				)
 			)
@@ -1467,7 +1467,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "c4920498-542f-4129-81db-1571d873d29a")
-		(property "Reference" "C19"
+		(property "Reference" "C69"
 			(at 144.018 97.79 0)
 			(effects
 				(font
@@ -1521,7 +1521,7 @@
 		(instances
 			(project ""
 				(path "/7f946e06-72d3-4343-93fe-84e8bb5001be/f2fa74ce-bfa7-4251-8bc0-1b2737017ea5"
-					(reference "C19")
+					(reference "C69")
 					(unit 1)
 				)
 			)
@@ -1536,7 +1536,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "edbc3e0b-a657-4aaa-b530-bd2a19b70833")
-		(property "Reference" "C20"
+		(property "Reference" "C70"
 			(at 152.908 97.79 0)
 			(effects
 				(font
@@ -1590,7 +1590,7 @@
 		(instances
 			(project "bldc_driver_hw"
 				(path "/7f946e06-72d3-4343-93fe-84e8bb5001be/f2fa74ce-bfa7-4251-8bc0-1b2737017ea5"
-					(reference "C20")
+					(reference "C70")
 					(unit 1)
 				)
 			)

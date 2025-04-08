@@ -1,0 +1,147 @@
+(footprint "MR60-F"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -17 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "34c56c3f-d7df-48fd-b059-d9ad23943748")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "MR60-F"
+		(at -0.4 -15.1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "9494d112-7268-4c0e-9c74-a94dce4b6518")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dc2e6759-5794-4760-a56e-37c3dafb2468")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8c554e71-bb6f-4dd1-b463-b68ee18ecb16")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -5 0)
+		(end -5 -11.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "38b4b7a1-1864-4043-8371-1584f36d26bc")
+	)
+	(fp_line
+		(start 5 0)
+		(end 5 -11)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "6e2e37f8-2ddb-4c5c-aaef-9a8819370ee0")
+	)
+	(fp_arc
+		(start -5 -11)
+		(mid 0 -16)
+		(end 5 -11)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "945e4675-9d46-4dab-9bbf-468e6b3c8e1d")
+	)
+	(fp_arc
+		(start 5 0)
+		(mid 0 5)
+		(end -5 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "8e584284-197d-46e5-8a17-3d3d25568447")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -0.4 -13.6 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "519354f6-293b-4352-a98a-9cb595b02a1c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 5.2 5.2)
+		(drill 4.5)
+		(layers "*.Cu" "*.Mask" "Eco1.User")
+		(remove_unused_layers no)
+		(uuid "98607818-eaea-469a-b82c-58b73417fb78")
+	)
+	(pad "2" thru_hole circle
+		(at 0 -5.5)
+		(size 5.2 5.2)
+		(drill 4.5)
+		(layers "*.Cu" "*.Mask" "Eco1.User")
+		(remove_unused_layers no)
+		(uuid "f36b1816-fd86-4ced-8f5f-d80e41059adf")
+	)
+	(pad "3" thru_hole circle
+		(at 0 -11)
+		(size 5.2 5.2)
+		(drill 4.5)
+		(layers "*.Cu" "*.Mask" "Eco1.User")
+		(remove_unused_layers no)
+		(uuid "b9cdea2f-9e88-4bf2-8f09-618f8f2a83fc")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/3d_model/MR60-F.stp"
+		(offset
+			(xyz 0 5.5 4.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 90 -0 -90)
+		)
+	)
+)
