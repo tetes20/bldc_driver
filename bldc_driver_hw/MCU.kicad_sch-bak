@@ -3500,10 +3500,22 @@
 		(uuid "20f62565-4338-40ab-9b6e-b74f22a7d8b4")
 	)
 	(junction
+		(at 203.2 110.8277)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "22f421c7-fd20-454f-ba9f-d36850215f7d")
+	)
+	(junction
 		(at 209.55 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "24245ea9-d677-456c-bbea-590f514a9e85")
+	)
+	(junction
+		(at 112.9451 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2662720f-0c60-43f0-862f-6201d37d679d")
 	)
 	(junction
 		(at 80.01 83.82)
@@ -3614,6 +3626,12 @@
 		(uuid "e197d940-5b85-4580-8157-fd3f3237c308")
 	)
 	(junction
+		(at 200.66 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e3d2a0ba-3c12-4550-9702-03a9926c1e74")
+	)
+	(junction
 		(at 132.08 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3680,10 +3698,6 @@
 		(uuid "7af380c5-f51e-442e-a724-734865b57252")
 	)
 	(no_connect
-		(at 162.56 119.38)
-		(uuid "9a787feb-e076-4d64-98ab-96b775362b90")
-	)
-	(no_connect
 		(at 198.12 132.08)
 		(uuid "9ed6b10a-3b2e-49b5-90f6-2fe5c76f00cc")
 	)
@@ -3694,6 +3708,10 @@
 	(no_connect
 		(at 162.56 99.06)
 		(uuid "d30d9f89-d281-4684-8dd2-b0483e270499")
+	)
+	(no_connect
+		(at 198.12 119.38)
+		(uuid "e00bb70a-8bd1-41f5-8806-81f3a96a4cc7")
 	)
 	(wire
 		(pts
@@ -4137,6 +4155,16 @@
 	)
 	(wire
 		(pts
+			(xy 112.9451 76.2) (xy 120.65 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5def62f9-02bb-4e3b-b39d-fa853721205b")
+	)
+	(wire
+		(pts
 			(xy 180.34 158.75) (xy 180.34 154.94)
 		)
 		(stroke
@@ -4197,13 +4225,13 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 119.38) (xy 198.12 119.38)
+			(xy 157.48 119.38) (xy 162.56 119.38)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6817fb78-ae92-4c2a-b05b-89323543fc51")
+		(uuid "6742afd1-f1a1-4abd-93ce-f0cfe4b70bc7")
 	)
 	(wire
 		(pts
@@ -4407,7 +4435,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 68.58) (xy 162.56 68.58)
+			(xy 120.65 68.58) (xy 156.21 68.58)
 		)
 		(stroke
 			(width 0)
@@ -4617,7 +4645,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 76.2) (xy 120.65 76.2)
+			(xy 102.87 76.2) (xy 112.9451 76.2)
 		)
 		(stroke
 			(width 0)
@@ -4644,6 +4672,16 @@
 			(type default)
 		)
 		(uuid "b110efe3-fdb3-43c4-b3ae-bebd1646443f")
+	)
+	(wire
+		(pts
+			(xy 161.29 68.58) (xy 162.56 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b28e36a3-ba3e-4d2a-84e1-9ba660611130")
 	)
 	(wire
 		(pts
@@ -4827,7 +4865,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 68.58) (xy 200.66 71.12)
+			(xy 200.66 69.85) (xy 200.66 71.12)
 		)
 		(stroke
 			(width 0)
@@ -4887,6 +4925,16 @@
 	)
 	(wire
 		(pts
+			(xy 200.66 68.58) (xy 200.66 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0fb4819-8517-43b4-8051-14ec9becf4d8")
+	)
+	(wire
+		(pts
 			(xy 147.32 29.21) (xy 147.32 27.94)
 		)
 		(stroke
@@ -4907,13 +4955,23 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 109.22) (xy 203.2 111.76)
+			(xy 203.2 110.8277) (xy 203.2 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "e495d7d9-5f31-4e8b-bda6-54238a086566")
+	)
+	(wire
+		(pts
+			(xy 203.2 111.76) (xy 203.2 110.8277)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e72459e4-a6a9-40c8-9780-abf4230cf98f")
 	)
 	(wire
 		(pts
@@ -5060,12 +5118,12 @@
 	)
 	(hierarchical_label "CAN_EN"
 		(shape output)
-		(at 205.74 119.38 0)
+		(at 157.48 119.38 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "27831739-ff54-43ee-831a-15c0f80676e1")
 	)
@@ -5415,6 +5473,121 @@
 			(project "bldc_driver_hw"
 				(path "/7f946e06-72d3-4343-93fe-84e8bb5001be/382e9115-8c2b-4b61-bf6e-567ae2ac3583"
 					(reference "#PWR066")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 200.66 69.85 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "031568c5-72d0-427d-9cd1-65a084c4c536")
+		(property "Reference" "TP13"
+			(at 205.994 67.564 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 202.6921 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 200.66 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 200.66 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 200.66 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 200.66 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" ""
+			(at 200.66 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 200.66 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 200.66 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 200.66 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 200.66 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f06c2978-9fc2-4550-b9f4-f92ec572e39a")
+		)
+		(instances
+			(project "bldc_driver_hw"
+				(path "/7f946e06-72d3-4343-93fe-84e8bb5001be/382e9115-8c2b-4b61-bf6e-567ae2ac3583"
+					(reference "TP13")
 					(unit 1)
 				)
 			)
@@ -7531,6 +7704,121 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 158.75 68.58 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4938fe7e-40cc-437d-b41c-f9cef74a278f")
+		(property "Reference" "R17"
+			(at 155.448 66.548 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "47R"
+			(at 159.258 66.548 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 158.75 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 158.75 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 158.75 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 158.75 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" ""
+			(at 158.75 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 158.75 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 158.75 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 158.75 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 158.75 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "4ca8b180-c1a5-4d80-96e1-51d8db443b32")
+		)
+		(pin "1"
+			(uuid "e1375dbf-831c-45c0-83f5-d38f9156d20d")
+		)
+		(instances
+			(project "bldc_driver_hw"
+				(path "/7f946e06-72d3-4343-93fe-84e8bb5001be/382e9115-8c2b-4b61-bf6e-567ae2ac3583"
+					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Jumper:SolderJumper_2_Open")
 		(at 82.55 36.83 270)
 		(unit 1)
@@ -8449,6 +8737,121 @@
 			(project "bldc_driver_hw"
 				(path "/7f946e06-72d3-4343-93fe-84e8bb5001be/382e9115-8c2b-4b61-bf6e-567ae2ac3583"
 					(reference "#PWR062")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 112.9451 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "69de5bef-65ff-49b4-ab09-69a3b65f90cf")
+		(property "Reference" "TP12"
+			(at 110.6591 70.866 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 115.4851 74.1679 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 118.0251 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 118.0251 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 112.9451 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 112.9451 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" ""
+			(at 112.9451 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 112.9451 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 112.9451 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 112.9451 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 112.9451 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "095f9781-104d-4b32-881f-ed92adde3abd")
+		)
+		(instances
+			(project "bldc_driver_hw"
+				(path "/7f946e06-72d3-4343-93fe-84e8bb5001be/382e9115-8c2b-4b61-bf6e-567ae2ac3583"
+					(reference "TP12")
 					(unit 1)
 				)
 			)
@@ -9439,6 +9842,121 @@
 			(project "bldc_driver_hw"
 				(path "/7f946e06-72d3-4343-93fe-84e8bb5001be/382e9115-8c2b-4b61-bf6e-567ae2ac3583"
 					(reference "#PWR063")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 203.2 110.8277 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a506bf33-fee2-4d0f-9cb7-7f1d45e1c993")
+		(property "Reference" "TP14"
+			(at 208.534 108.5417 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 205.2321 113.3677 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 203.2 115.9077 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 203.2 115.9077 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 203.2 110.8277 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 203.2 110.8277 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" ""
+			(at 203.2 110.8277 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 203.2 110.8277 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 203.2 110.8277 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 203.2 110.8277 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 203.2 110.8277 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "53c52eff-9691-48d0-af46-0e43282f23a9")
+		)
+		(instances
+			(project "bldc_driver_hw"
+				(path "/7f946e06-72d3-4343-93fe-84e8bb5001be/382e9115-8c2b-4b61-bf6e-567ae2ac3583"
+					(reference "TP14")
 					(unit 1)
 				)
 			)

@@ -1,4 +1,4 @@
-24749561219460202
+24753049502929423
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -99519,6 +99519,13 @@ Varistor VF
 2
 2
 bldc_driver_footprint
+Haunter
+
+
+0
+0
+0
+bldc_driver_footprint
 INDPM5452X300N
 LMLP050a6M4R7DTASa
 Inductor
@@ -99560,6 +99567,13 @@ Untitled_1
 0
 0
 0
+bldc_driver_footprint
+XCVR_ESP32-C6-MINI-1-H4
+
+
+0
+61
+61
 m_lib
 TL3342F160QG
 TL3342F160QG-1

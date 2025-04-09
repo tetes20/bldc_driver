@@ -587,130 +587,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:R"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 2.032 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "R"
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -1.778 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R res resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_0_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:R_Small"
 			(pin_numbers
 				(hide yes)
@@ -1064,34 +940,22 @@
 		)
 	)
 	(junction
-		(at 149.86 83.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "107bc1b0-adf9-4ac2-a997-fb13c55e1f64")
-	)
-	(junction
 		(at 154.94 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1c1ee960-5773-41f8-844d-e3c631e01d2c")
 	)
 	(junction
-		(at 129.54 81.28)
+		(at 149.86 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "28622f87-0980-40b3-8399-d5d9206f2fb3")
+		(uuid "1ff888a2-e4c8-46cb-ab24-e84ba540f38f")
 	)
 	(junction
 		(at 97.79 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2fc38322-6796-48a1-aa53-446917551025")
-	)
-	(junction
-		(at 148.59 116.84)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "37294682-b53c-416b-8382-df05ff93957a")
 	)
 	(junction
 		(at 156.21 52.07)
@@ -1112,10 +976,28 @@
 		(uuid "5778e6cc-56df-4b6a-b206-376db4c080d7")
 	)
 	(junction
+		(at 148.59 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "624e02c5-5f34-4e8b-bc09-47d621b76aba")
+	)
+	(junction
 		(at 172.72 24.13)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "76e88880-37e5-4897-8cef-8ee96c6b110e")
+	)
+	(junction
+		(at 127 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7db2c3e8-e907-46a7-9d90-c5003dee0249")
+	)
+	(junction
+		(at 129.54 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8aa6f937-5b2d-489a-ba88-80ee97e86fad")
 	)
 	(junction
 		(at 96.52 118.11)
@@ -1142,12 +1024,6 @@
 		(uuid "bf56e472-e77f-4ffe-a3d3-efa6ffa815cf")
 	)
 	(junction
-		(at 127 114.3)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cd3919ec-6155-45e5-91bb-e5525ffb3930")
-	)
-	(junction
 		(at 105.41 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1166,16 +1042,16 @@
 		(uuid "fa7d64e0-d021-407e-88c5-adaac66f7bb4")
 	)
 	(no_connect
-		(at 129.54 147.32)
-		(uuid "9b9c69ac-4e86-48cd-9914-5823120cfbbe")
+		(at 154.94 139.7)
+		(uuid "3b81b62a-c5c7-4b9f-9523-335cca509274")
 	)
 	(no_connect
-		(at 129.54 152.4)
-		(uuid "bf3b3a84-69a9-497a-bc71-24ea3922542b")
+		(at 139.7 142.24)
+		(uuid "4eb78e0c-b29b-42a4-ac25-dce0c168fd45")
 	)
 	(no_connect
-		(at 144.78 149.86)
-		(uuid "e1e5e21f-aec4-4795-8b7b-c4e0f5daed9b")
+		(at 139.7 137.16)
+		(uuid "aee9218d-1921-4765-b349-5c6db945510c")
 	)
 	(wire
 		(pts
@@ -1219,7 +1095,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 107.95) (xy 88.9 107.95)
+			(xy 96.52 107.95) (xy 83.82 107.95)
 		)
 		(stroke
 			(width 0)
@@ -1246,16 +1122,6 @@
 			(type default)
 		)
 		(uuid "1db0e9d1-3234-4a2a-82d1-da3b66eb5a8f")
-	)
-	(wire
-		(pts
-			(xy 129.54 81.28) (xy 132.08 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1fa285e5-aa2f-423f-81d0-f6633b908f0f")
 	)
 	(wire
 		(pts
@@ -1299,7 +1165,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 71.12) (xy 90.17 71.12)
+			(xy 97.79 71.12) (xy 85.09 71.12)
 		)
 		(stroke
 			(width 0)
@@ -1429,6 +1295,26 @@
 	)
 	(wire
 		(pts
+			(xy 115.57 86.36) (xy 130.81 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4cf3e953-72ec-42ee-bf3e-0f4678b6c8fd")
+	)
+	(wire
+		(pts
+			(xy 129.54 81.28) (xy 130.81 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f16000b-e1a3-42cc-9833-7d5589ec1213")
+	)
+	(wire
+		(pts
 			(xy 138.43 106.68) (xy 148.59 106.68)
 		)
 		(stroke
@@ -1456,16 +1342,6 @@
 			(type default)
 		)
 		(uuid "5d7ddcfa-9b40-47b6-9c91-7488ee38b32c")
-	)
-	(wire
-		(pts
-			(xy 149.86 83.82) (xy 147.32 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "61dfb260-85a1-47d3-946a-c4e31d1f1499")
 	)
 	(wire
 		(pts
@@ -1506,6 +1382,16 @@
 			(type default)
 		)
 		(uuid "69578d1f-3c88-46e1-b31c-f1bbd59b5e10")
+	)
+	(wire
+		(pts
+			(xy 146.05 83.82) (xy 149.86 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71199dbe-5cbd-4845-bd2f-090c711d659a")
 	)
 	(wire
 		(pts
@@ -1579,16 +1465,6 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 86.36) (xy 132.08 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a0090eea-c388-41c2-8981-b3e006cb353d")
-	)
-	(wire
-		(pts
 			(xy 109.22 114.3) (xy 109.22 119.38)
 		)
 		(stroke
@@ -1606,6 +1482,16 @@
 			(type default)
 		)
 		(uuid "a77d4130-e0c2-463d-8115-31c8b616176e")
+	)
+	(wire
+		(pts
+			(xy 142.24 116.84) (xy 148.59 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8a63d94-24f0-4718-bbca-81f9e1b385e5")
 	)
 	(wire
 		(pts
@@ -1649,17 +1535,17 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 116.84) (xy 144.78 116.84)
+			(xy 118.11 119.38) (xy 127 119.38)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b14e5eff-2a78-4a22-8965-6ee7fd1b00f1")
+		(uuid "b93ff7de-b9b5-44f4-877b-22a966786169")
 	)
 	(wire
 		(pts
-			(xy 154.94 83.82) (xy 161.29 83.82)
+			(xy 154.94 83.82) (xy 162.56 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1676,16 +1562,6 @@
 			(type default)
 		)
 		(uuid "bc07ab37-44d7-494a-91e9-1d6c06656d6d")
-	)
-	(wire
-		(pts
-			(xy 118.11 119.38) (xy 129.54 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bc151ad0-1491-4397-a25a-1642d518127f")
 	)
 	(wire
 		(pts
@@ -1786,16 +1662,6 @@
 			(type default)
 		)
 		(uuid "ce84975d-b398-47cb-982f-e80e601e7733")
-	)
-	(wire
-		(pts
-			(xy 127 114.3) (xy 129.54 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d4516217-0c31-4db1-aeb3-8eb9ff000e13")
 	)
 	(wire
 		(pts
@@ -2981,7 +2847,133 @@
 			"AABJAAEA0IBEAFUAAADPgAQANwFgAAAAAABHAAAA0YBEAFUAAACMgEQAEDIAAAMAAADSgEQAVQAA"
 			"ANGABADQgAQARwAAAIyARABVAAAA0oBEABAyAAAdAwAAfwIAABwDAAB/AgAARwAAANOARABVAAAA"
 			"goBEABAyAABHAAAAjYBEAFUAAADTgEQAEDIAAHkAAADAASAAAAAAAAAAAAAAAAAAAAAAAHkAAADB"
-			"ASAASAAAAHwAAAAAAAAAAAAAAAQBB5AAAAAAAA=="
+			"ASAASAAAAHwAAAAAAAAAAAAAAAQBB5AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAMMEAADEBAAAwgQAAMUEAADDBAAAxgQAAMcE"
+			"AADIBAAAxgQAAMkEAADHBAAAygQAAMsEAADMBAAAygQAAM0EAADLBAAAzgQAAM8EAADQBAAAzgQA"
+			"ANEEAADPBAAA0gQAANMEAADUBAAA0gQAANUEAADTBAAA1gQAANcEAADYBAAA1gQAANkEAADXBAAA"
+			"2gQAANsEAADcBAAA2gQAAN0EAADbBAAA3gQAAN8EAADgBAAA3gQAAOEEAADfBAAA4gQAAOMEAADk"
+			"BAAA4gQAAOUEAADjBAAA5gQAAOcEAADoBAAA5gQAAOkEAADnBAAA6gQAAOsEAADsBAAA7QQAAOoE"
+			"AADsBAAA7gQAAO8EAADwBAAA7gQAAPEEAADvBAAA8gQAAPMEAAD0BAAA8gQAAPUEAADzBAAA9gQA"
+			"APcEAAD4BAAA9gQAAPkEAAD3BAAA+gQAAPsEAAD8BAAA+gQAAP0EAAD7BAAA/gQAAP8EAAAABQAA"
+			"/gQAAAEFAAD/BAAAAgUAAAMFAAAEBQAAAgUAAAUFAAADBQAABgUAAAcFAAAIBQAABgUAAAkFAAAH"
+			"BQAACgUAAAsFAAAMBQAACgUAAA0FAAALBQAADgUAAA8FAAAQBQAADgUAABEFAAAPBQAAEgUAABMF"
+			"AAAUBQAAFQUAABIFAAAUBQAAFgUAABcFAAAYBQAAFgUAABkFAAAXBQAAGgUAABsFAAAcBQAAGgUA"
+			"AB0FAAAbBQAAHgUAAB8FAAAgBQAAHgUAACEFAAAfBQAAIgUAACMFAAAkBQAAIgUAACUFAAAjBQAA"
+			"JgUAACcFAAAoBQAAKQUAACYFAAAoBQAAKgUAACsFAAAsBQAAKgUAAC0FAAArBQAALgUAAC8FAAAw"
+			"BQAALgUAADEFAAAvBQAAMgUAADMFAAA0BQAAMgUAADUFAAAzBQAANgUAADcFAAA4BQAANgUAADkF"
+			"AAA3BQAAOgUAADsFAAA8BQAAOgUAAD0FAAA7BQAAPgUAAD8FAABABQAAPgUAAEEFAAA/BQAAQgUA"
+			"AEMFAABEBQAAQgUAAEUFAABDBQAARgUAAEcFAABIBQAARgUAAEkFAABHBQAASgUAAEsFAABMBQAA"
+			"SgUAAE0FAABLBQAATgUAAE8FAABQBQAAUQUAAE4FAABQBQAAUgUAAFMFAABUBQAAUgUAAFUFAABT"
+			"BQAAVgUAAFcFAABYBQAAVgUAAFkFAABXBQAAWgUAAFsFAABcBQAAWgUAAF0FAABbBQAAXgUAAF8F"
+			"AABgBQAAXgUAAGEFAABfBQAAYgUAAGMFAABkBQAAZQUAAGIFAABkBQAAZgUAAGcFAABoBQAAZgUA"
+			"AGkFAABnBQAAagUAAGsFAABsBQAAagUAAG0FAABAQCsABAA4AAAAxAAAAAMAAAArAAQABgAAAMoA"
+			"AAAAAIBAIAAEANUAAAAAAAAAEQAAADsABADVAAAA1gAAAAAAAAAZAAkA3AAAAAYAAAABAAAAAAAA"
+			"AAAAAAAAAAAAAQAAAAAAAAAbAAMA3QAAANwAAAAgAAQA3gAAAAAAAADdAAAAOwAEAN4AAADfAAAA"
+			"AAAAACAABAD5AAAAAAAAAAYAAAA7AAQA+QAAAPoAAAAAAAAANgAFAAIAAAAEAAAAAAAAAAMAAAD4"
+			"AAIABQAAADsABAAWAAAAmgAAAAcAAAA7AAQACAAAAKgAAAAHAAAAOwAEAAgAAAC1AAAABwAAADsA"
+			"BAAIAAAAvgAAAAcAAAA7AAQAFgAAAMAAAAAHAAAAOwAEABYAAADDAAAABwAAADsABAAIAAAAzgAA"
+			"AAcAAAA7AAQAFgAAANEAAAAHAAAAOwAEABYAAADbAAAABwAAADsABAAhAAAA4wAAAAcAAAA7AAQA"
+			"FgAAAOYAAAAHAAAAQQAFADoAAACbAAAANwAAAD8AAAA9AAQABgAAAJwAAACbAAAAgQAFAAYAAACe"
+			"AAAAnAAAAJ0AAAAMAAYABgAAAJ8AAAABAAAACAAAAJ4AAAA+AAMAmgAAAJ8AAAA9AAQABgAAAKAA"
+			"AACaAAAAtAAFACoAAACiAAAAoAAAAKEAAAD3AAMApAAAAAAAAAD6AAQAogAAAKMAAACtAAAA+AAC"
+			"AKMAAABBAAUAMQAAAKkAAACnAAAAXQAAAD0ABAAuAAAAqgAAAKkAAABPAAcABwAAAKsAAACqAAAA"
+			"qgAAAAAAAAABAAAAPgADAKgAAACrAAAAOQAFAAIAAACsAAAAHgAAAKgAAAD5AAIApAAAAPgAAgCt"
+			"AAAAPQAEAAYAAACuAAAAmgAAALQABQAqAAAAsAAAAK4AAACvAAAA9wADALIAAAAAAAAA+gAEALAA"
+			"AACxAAAAuAAAAPgAAgCxAAAAPQAEAAcAAAC2AAAAtAAAAD4AAwC1AAAAtgAAADkABQACAAAAtwAA"
+			"AAsAAAC1AAAA+QACALIAAAD4AAIAuAAAAD0ABAAGAAAAuQAAAJoAAAC0AAUAKgAAALsAAAC5AAAA"
+			"ugAAAPcAAwC9AAAAAAAAAPoABAC7AAAAvAAAAMgAAAD4AAIAvAAAAD0ABAAHAAAAvwAAALQAAAA+"
+			"AAMAvgAAAL8AAABBAAUAOgAAAMEAAAA3AAAAkwAAAD0ABAAGAAAAwgAAAMEAAAA+AAMAwAAAAMIA"
+			"AABBAAUAOgAAAMUAAAA3AAAAxAAAAD0ABAAGAAAAxgAAAMUAAAA+AAMAwwAAAMYAAAA5AAcAAgAA"
+			"AMcAAAAbAAAAvgAAAMAAAADDAAAA+QACAL0AAAD4AAIAyAAAAD0ABAAGAAAAyQAAAJoAAAC0AAUA"
+			"KgAAAMsAAADJAAAAygAAAPcAAwDNAAAAAAAAAPoABADLAAAAzAAAAPcAAAD4AAIAzAAAAD0ABAAu"
+			"AAAAzwAAADcAAABPAAcABwAAANAAAADPAAAAzwAAAAEAAAACAAAAPgADAM4AAADQAAAAPQAEAAcA"
+			"AADSAAAAzgAAAM8ABAAHAAAA0wAAANIAAAAMAAYABgAAANQAAAABAAAAQgAAANMAAAA9AAQAEQAA"
+			"ANcAAADWAAAAbwAEAAYAAADYAAAA1wAAAIUABQAGAAAA2QAAANQAAADYAAAAiAAFAAYAAADaAAAA"
+			"2QAAAMoAAAA+AAMA0QAAANoAAAA9AAQA3QAAAOAAAADfAAAAPQAEAAcAAADhAAAAzgAAAFcABQAu"
+			"AAAA4gAAAOAAAADhAAAATwAIACAAAADkAAAA4gAAAOIAAAAAAAAAAQAAAAIAAAA+AAMA4wAAAOQA"
+			"AAA5AAUABgAAAOUAAAAkAAAA4wAAAD4AAwDbAAAA5QAAAD0ABAAGAAAA5wAAANEAAACDAAUABgAA"
+			"AOgAAACdAAAA5wAAAD0ABAAGAAAA6QAAANEAAACBAAUABgAAAOoAAACdAAAA6QAAAD0ABAAGAAAA"
+			"6wAAANsAAAAMAAgABgAAAOwAAAABAAAAMQAAAOgAAADqAAAA6wAAAEEABQA6AAAA7QAAADIAAADE"
+			"AAAAPQAEAAYAAADuAAAA7QAAAIUABQAGAAAA7wAAAOwAAADuAAAAPgADAOYAAADvAAAAPQAEAC4A"
+			"AADwAAAAMgAAAE8ACAAgAAAA8QAAAPAAAADwAAAAAAAAAAEAAAACAAAAPQAEAAYAAADyAAAA5gAA"
+			"AFEABQAGAAAA8wAAAPEAAAAAAAAAUQAFAAYAAAD0AAAA8QAAAAEAAABRAAUABgAAAPUAAADxAAAA"
+			"AgAAAFAABwAuAAAA9gAAAPMAAAD0AAAA9QAAAPIAAAA+AAMAMAAAAPYAAAD5AAIAzQAAAPgAAgD3"
+			"AAAAPQAEAC4AAAD4AAAAMgAAAD4AAwAwAAAA+AAAAPkAAgDNAAAA+AACAM0AAAD5AAIAvQAAAPgA"
+			"AgC9AAAA+QACALIAAAD4AAIAsgAAAPkAAgCkAAAA+AACAKQAAAD9AAEAOAABADYABQACAAAACwAA"
+			"AAAAAAAJAAAANwADAAgAAAAKAAAA+AACAAwAAAA9AAQABwAAACYAAAAKAAAAPQAEAAcAAAAnAAAA"
+			"CgAAAJQABQAGAAAAKAAAACYAAAAnAAAAuAAFACoAAAArAAAAKAAAACkAAAD3AAMALQAAAAAAAAD6"
+			"AAQAKwAAACwAAAA0AAAA+AACACwAAAA9AAQALg=="
 		)
 	)
 	(label "V_BEMF"
@@ -3014,38 +3006,38 @@
 		)
 		(uuid "fc6a21e1-9206-4e4a-8d0c-500c3465d09f")
 	)
-	(hierarchical_label "PHASE_V"
-		(shape input)
-		(at 88.9 107.95 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "1009c7b4-cfdc-4755-ab6d-b9ed11d64c08")
-	)
-	(hierarchical_label "PHASE_W"
-		(shape input)
-		(at 90.17 71.12 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "2e456972-7e1f-484c-9926-c9ae4a8dfb6e")
-	)
-	(hierarchical_label "BEMF_W"
+	(hierarchical_label "BEMF_V"
 		(shape output)
-		(at 161.29 83.82 0)
+		(at 162.56 83.82 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "71763e8f-518d-4c08-b9f3-f144100a9076")
+		(uuid "110ea7fc-3c00-4dc8-baed-9b188afc4d4f")
+	)
+	(hierarchical_label "PHASE_V"
+		(shape input)
+		(at 85.09 71.12 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "62c34051-48a4-4c16-b7a6-66bc9a8f6735")
+	)
+	(hierarchical_label "PHASE_W"
+		(shape input)
+		(at 83.82 107.95 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "73a0171d-5c9b-48ae-b4c1-afba00922e3f")
 	)
 	(hierarchical_label "BEMF_U"
 		(shape output)
@@ -3058,17 +3050,6 @@
 		)
 		(uuid "93a2b755-6455-4bae-8dbf-9f2cd48c8491")
 	)
-	(hierarchical_label "BEMF_V"
-		(shape output)
-		(at 161.29 116.84 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "bd47c336-d416-4cff-8353-71ffafb13b08")
-	)
 	(hierarchical_label "PHASE_U"
 		(shape input)
 		(at 90.17 43.18 180)
@@ -3079,6 +3060,17 @@
 			(justify right)
 		)
 		(uuid "e424a704-a95b-4fb9-be34-61704edbdd6e")
+	)
+	(hierarchical_label "BEMF_W"
+		(shape output)
+		(at 161.29 116.84 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f6715429-35c2-4a41-8be0-73de00c4f35a")
 	)
 	(symbol
 		(lib_id "Device:R_Small")
@@ -3131,6 +3123,54 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 156.21 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" ""
+			(at 156.21 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 156.21 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 156.21 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 156.21 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 156.21 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -3199,6 +3239,54 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 96.52 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" ""
+			(at 96.52 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 96.52 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 96.52 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 96.52 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 96.52 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -3400,6 +3488,54 @@
 				(hide yes)
 			)
 		)
+		(property "Description_1" ""
+			(at 154.94 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" ""
+			(at 154.94 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 154.94 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 154.94 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 154.94 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 154.94 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "7937863c-18dc-45f4-982a-a8719afcf176")
 		)
@@ -3467,6 +3603,54 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 120.65 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" ""
+			(at 120.65 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 120.65 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 120.65 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 120.65 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 120.65 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -3537,6 +3721,54 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 205.74 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" ""
+			(at 205.74 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 205.74 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 205.74 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 205.74 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 205.74 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "9"
@@ -3645,6 +3877,54 @@
 				(hide yes)
 			)
 		)
+		(property "Description_1" ""
+			(at 82.55 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" ""
+			(at 82.55 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 82.55 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 82.55 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 82.55 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 82.55 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "e0c5626c-db8f-4390-b702-abda05ad8f12")
 		)
@@ -3712,6 +3992,54 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 111.76 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" ""
+			(at 111.76 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 111.76 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 111.76 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 111.76 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 111.76 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -3784,6 +4112,54 @@
 				(hide yes)
 			)
 		)
+		(property "Description_1" ""
+			(at 81.28 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" ""
+			(at 81.28 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 81.28 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 81.28 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 81.28 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 81.28 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "7dfc12f1-649a-4d04-b209-26e109730bd8")
 		)
@@ -3854,6 +4230,54 @@
 				(hide yes)
 			)
 		)
+		(property "Description_1" ""
+			(at 81.28 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" ""
+			(at 81.28 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 81.28 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 81.28 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 81.28 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 81.28 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "e2166b2b-7cdc-4d91-9d1f-6604f522454f")
 		)
@@ -3864,76 +4288,6 @@
 			(project ""
 				(path "/7f946e06-72d3-4343-93fe-84e8bb5001be/a07df530-e344-489b-a663-7fb13b231d0d"
 					(reference "C78")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 113.03 66.04 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2ec8b54c-03e6-4fff-b487-862b76378cf7")
-		(property "Reference" "R89"
-			(at 115.57 64.7699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "100k"
-			(at 115.57 67.3099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 114.808 66.04 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 113.03 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 113.03 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "775a8258-77ba-4c30-ad94-89a55a90ef06")
-		)
-		(pin "1"
-			(uuid "fe70e4b6-d9cb-4414-89e7-d46c1f260e69")
-		)
-		(instances
-			(project ""
-				(path "/7f946e06-72d3-4343-93fe-84e8bb5001be/a07df530-e344-489b-a663-7fb13b231d0d"
-					(reference "R89")
 					(unit 1)
 				)
 			)
@@ -3991,6 +4345,54 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 135.89 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" ""
+			(at 135.89 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 135.89 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 135.89 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 135.89 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 135.89 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -4059,6 +4461,54 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 97.79 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" ""
+			(at 97.79 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 97.79 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 97.79 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 97.79 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 97.79 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -4143,16 +4593,15 @@
 	)
 	(symbol
 		(lib_id "Comparator:MCP6569")
-		(at 137.16 149.86 0)
+		(at 134.62 116.84 0)
 		(unit 4)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "531f2141-ac44-4c17-87f9-898fbd4336c0")
 		(property "Reference" "U13"
-			(at 137.16 139.7 0)
+			(at 136.906 110.744 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4160,7 +4609,7 @@
 			)
 		)
 		(property "Value" "MCP6569"
-			(at 137.16 142.24 0)
+			(at 134.62 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4168,7 +4617,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
-			(at 135.89 147.32 0)
+			(at 133.35 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4177,7 +4626,7 @@
 			)
 		)
 		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/MCP6566-6R-6U-7-9-1.8V-Low-Power-Open-Drain-Output-Comparator-DS20002143G.pdf"
-			(at 138.43 144.78 0)
+			(at 135.89 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4186,12 +4635,60 @@
 			)
 		)
 		(property "Description" "Quad 1.8V Low-Power Open-Drain Output Comparator, SOIC-14/TSSOP-14"
-			(at 137.16 149.86 0)
+			(at 134.62 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 134.62 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" ""
+			(at 134.62 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 134.62 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 134.62 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 134.62 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 134.62 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "9"
@@ -4296,6 +4793,54 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 96.52 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" ""
+			(at 96.52 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 96.52 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 96.52 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 96.52 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 96.52 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -4431,6 +4976,54 @@
 				(hide yes)
 			)
 		)
+		(property "Description_1" ""
+			(at 154.94 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" ""
+			(at 154.94 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 154.94 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 154.94 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 154.94 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 154.94 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "d12b0cdf-9bfd-4763-85c4-d71fee64dcdf")
 		)
@@ -4500,6 +5093,54 @@
 				(hide yes)
 			)
 		)
+		(property "Description_1" ""
+			(at 123.19 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" ""
+			(at 123.19 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 123.19 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 123.19 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 123.19 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 123.19 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "de731ea4-6a15-4db4-8948-67b0c24a5018")
 		)
@@ -4517,7 +5158,7 @@
 	)
 	(symbol
 		(lib_id "Comparator:MCP6569")
-		(at 139.7 83.82 0)
+		(at 147.32 139.7 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4525,7 +5166,7 @@
 		(dnp no)
 		(uuid "6cbaedb0-b9e4-46d7-9036-d42225f2ef39")
 		(property "Reference" "U13"
-			(at 141.478 88.9 0)
+			(at 149.098 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4533,7 +5174,7 @@
 			)
 		)
 		(property "Value" "MCP6569"
-			(at 141.478 91.44 0)
+			(at 149.098 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4541,7 +5182,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
-			(at 138.43 81.28 0)
+			(at 146.05 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4550,7 +5191,7 @@
 			)
 		)
 		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/MCP6566-6R-6U-7-9-1.8V-Low-Power-Open-Drain-Output-Comparator-DS20002143G.pdf"
-			(at 140.97 78.74 0)
+			(at 148.59 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4559,12 +5200,60 @@
 			)
 		)
 		(property "Description" "Quad 1.8V Low-Power Open-Drain Output Comparator, SOIC-14/TSSOP-14"
-			(at 139.7 83.82 0)
+			(at 147.32 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 147.32 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" ""
+			(at 147.32 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 147.32 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 147.32 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 147.32 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 147.32 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "9"
@@ -4646,7 +5335,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 172.72 26.67 0)
 			(effects
 				(font
@@ -4671,6 +5360,54 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 172.72 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" ""
+			(at 172.72 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 172.72 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 172.72 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 172.72 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 172.72 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -4741,6 +5478,54 @@
 				(hide yes)
 			)
 		)
+		(property "Description_1" ""
+			(at 115.57 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" ""
+			(at 115.57 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 115.57 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 115.57 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 115.57 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 115.57 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "4da574b9-0e6b-438b-b6fb-414759b5669e")
 		)
@@ -4809,6 +5594,54 @@
 				(hide yes)
 			)
 		)
+		(property "Description_1" ""
+			(at 96.52 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" ""
+			(at 96.52 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 96.52 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 96.52 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 96.52 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 96.52 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "7dad1171-522d-4c2d-84b1-d632d63828dd")
 		)
@@ -4875,6 +5708,54 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 113.03 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" ""
+			(at 113.03 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 113.03 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 113.03 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 113.03 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 113.03 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -5009,6 +5890,54 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 97.79 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" ""
+			(at 97.79 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 97.79 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 97.79 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 97.79 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 97.79 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -5342,6 +6271,54 @@
 				(hide yes)
 			)
 		)
+		(property "Description_1" ""
+			(at 139.7 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" ""
+			(at 139.7 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 139.7 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 139.7 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 139.7 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 139.7 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "a53dc471-4735-401b-82d5-76f2909d04db")
 		)
@@ -5359,7 +6336,7 @@
 	)
 	(symbol
 		(lib_id "Comparator:MCP6569")
-		(at 137.16 116.84 0)
+		(at 138.43 83.82 0)
 		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5367,7 +6344,7 @@
 		(dnp no)
 		(uuid "b0a0263b-855a-4fe4-a678-1eb2194747f2")
 		(property "Reference" "U13"
-			(at 139.192 124.968 0)
+			(at 140.462 91.948 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5375,7 +6352,7 @@
 			)
 		)
 		(property "Value" "MCP6569"
-			(at 139.192 127.508 0)
+			(at 140.462 94.488 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5383,7 +6360,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
-			(at 135.89 114.3 0)
+			(at 137.16 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5392,7 +6369,7 @@
 			)
 		)
 		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/MCP6566-6R-6U-7-9-1.8V-Low-Power-Open-Drain-Output-Comparator-DS20002143G.pdf"
-			(at 138.43 111.76 0)
+			(at 139.7 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5401,12 +6378,60 @@
 			)
 		)
 		(property "Description" "Quad 1.8V Low-Power Open-Drain Output Comparator, SOIC-14/TSSOP-14"
-			(at 137.16 116.84 0)
+			(at 138.43 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 138.43 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" ""
+			(at 138.43 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 138.43 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 138.43 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 138.43 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 138.43 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "9"
@@ -5576,6 +6601,54 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 140.97 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" ""
+			(at 140.97 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 140.97 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 140.97 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 140.97 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 140.97 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "9"
@@ -5748,6 +6821,54 @@
 				(hide yes)
 			)
 		)
+		(property "Description_1" ""
+			(at 123.19 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" ""
+			(at 123.19 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 123.19 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 123.19 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 123.19 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 123.19 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "a4df58c0-2deb-441d-a38d-662a0129bdc6")
 		)
@@ -5881,6 +7002,54 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 139.7 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" ""
+			(at 139.7 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 139.7 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 139.7 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 139.7 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 139.7 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -6017,6 +7186,54 @@
 				(hide yes)
 			)
 		)
+		(property "Description_1" ""
+			(at 96.52 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" ""
+			(at 96.52 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 96.52 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 96.52 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 96.52 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 96.52 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f17f2164-929e-4063-bdb8-794beb88b51b")
 		)
@@ -6060,7 +7277,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 182.88 26.67 0)
 			(effects
 				(font
@@ -6085,6 +7302,54 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 182.88 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" ""
+			(at 182.88 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 182.88 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 182.88 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 182.88 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 182.88 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
