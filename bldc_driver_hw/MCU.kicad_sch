@@ -3469,6 +3469,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "BOOT do masy\n"
+		(exclude_from_sim no)
+		(at 61.214 140.716 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "774ce889-5581-4945-9c17-54c4a5d1cc6b")
+	)
 	(junction
 		(at 180.34 154.94)
 		(diameter 0)
