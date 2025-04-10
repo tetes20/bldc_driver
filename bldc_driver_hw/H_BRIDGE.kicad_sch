@@ -1637,26 +1637,6 @@
 		)
 		(uuid 59c1ac71-3450-4f70-8b38-0e50438e484a)
 	)
-	(text "https://e2e.ti.com/support/motor-drivers-group/motor-drivers/f/motor-drivers-forum/991693/faq-proper-rc-snubber-design-for-motor-drivers"
-		(exclude_from_sim no)
-		(at 92.964 174.498 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "3711828d-a9d9-44c3-94f5-726f1eb97c7a")
-	)
-	(text "Filter:\nhttps://www.st.com/resource/en/application_note/an4304-how-to-filter-the-input-of-a-highside-current-sensing-stmicroelectronics.pdf"
-		(exclude_from_sim no)
-		(at 89.154 182.372 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "8495994b-7332-4588-b10b-f20952279841")
-	)
 	(junction
 		(at 184.15 62.23)
 		(diameter 0)

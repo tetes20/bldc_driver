@@ -3530,6 +3530,12 @@
 		(uuid "39a14839-ec53-4b5b-a94a-5be9f1274903")
 	)
 	(junction
+		(at 247.65 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "416cda0f-b4fb-47cc-b204-334157b9b151")
+	)
+	(junction
 		(at 222.25 22.86)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3997,6 +4003,16 @@
 	)
 	(wire
 		(pts
+			(xy 247.65 123.19) (xy 247.65 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4099a8be-d4b4-4710-ab64-8b3faa41364c")
+	)
+	(wire
+		(pts
 			(xy 182.88 55.88) (xy 182.88 22.86)
 		)
 		(stroke
@@ -4214,6 +4230,16 @@
 			(type default)
 		)
 		(uuid "6d7d9dff-e2c7-43f0-910b-68a99a63cec2")
+	)
+	(wire
+		(pts
+			(xy 247.65 127) (xy 247.65 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ddfcf9a-7d0e-45e9-a873-c0b6bccc422f")
 	)
 	(wire
 		(pts
@@ -4717,7 +4743,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 127) (xy 198.12 127)
+			(xy 247.65 127) (xy 198.12 127)
 		)
 		(stroke
 			(width 0)
@@ -4957,7 +4983,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 127) (xy 217.17 127)
+			(xy 247.65 127) (xy 255.27 127)
 		)
 		(stroke
 			(width 0)
@@ -5291,7 +5317,7 @@
 	)
 	(hierarchical_label "CAN_RX"
 		(shape input)
-		(at 226.06 127 0)
+		(at 262.89 127 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6142,6 +6168,72 @@
 			(project "bldc_driver_hw"
 				(path "/7f946e06-72d3-4343-93fe-84e8bb5001be/382e9115-8c2b-4b61-bf6e-567ae2ac3583"
 					(reference "#PWR065")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 247.65 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1bb793e9-34c0-4b81-b191-f4a4de0ffabd")
+		(property "Reference" "#PWR087"
+			(at 247.65 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 247.65 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 247.65 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 247.65 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 247.65 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "85f279a2-78ed-4f1e-866f-0b490d5c6031")
+		)
+		(instances
+			(project "bldc_driver_hw"
+				(path "/7f946e06-72d3-4343-93fe-84e8bb5001be/382e9115-8c2b-4b61-bf6e-567ae2ac3583"
+					(reference "#PWR087")
 					(unit 1)
 				)
 			)
@@ -7279,6 +7371,121 @@
 			(project "bldc_driver_hw"
 				(path "/7f946e06-72d3-4343-93fe-84e8bb5001be/382e9115-8c2b-4b61-bf6e-567ae2ac3583"
 					(reference "C33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 247.65 120.65 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "348b2faa-9f6a-42a2-81e0-a90667ab95b5")
+		(property "Reference" "R17"
+			(at 245.618 120.65 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 249.682 120.396 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 247.65 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 247.65 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 247.65 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 247.65 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" ""
+			(at 247.65 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 247.65 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 247.65 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 247.65 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 247.65 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "5b974831-c1a7-4ce0-9479-847fc927e4ff")
+		)
+		(pin "1"
+			(uuid "abe6016d-5b22-43d4-9ae6-685add20017e")
+		)
+		(instances
+			(project "bldc_driver_hw"
+				(path "/7f946e06-72d3-4343-93fe-84e8bb5001be/382e9115-8c2b-4b61-bf6e-567ae2ac3583"
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -8903,7 +9110,7 @@
 	)
 	(symbol
 		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 213.36 127 0)
+		(at 259.08 127 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -8911,7 +9118,7 @@
 		(dnp no)
 		(uuid "8be4baaa-e5dc-451e-a62d-4ad43a641357")
 		(property "Reference" "JP9"
-			(at 216.916 128.27 0)
+			(at 258.572 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8919,7 +9126,7 @@
 			)
 		)
 		(property "Value" "SolderJumper_2_Open"
-			(at 213.36 123.19 0)
+			(at 259.08 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8928,7 +9135,7 @@
 			)
 		)
 		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
-			(at 213.36 127 0)
+			(at 259.08 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8937,7 +9144,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 213.36 127 0)
+			(at 259.08 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8946,7 +9153,7 @@
 			)
 		)
 		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 213.36 127 0)
+			(at 259.08 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8955,7 +9162,7 @@
 			)
 		)
 		(property "Description_1" ""
-			(at 213.36 127 0)
+			(at 259.08 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8963,7 +9170,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 213.36 127 0)
+			(at 259.08 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8971,7 +9178,7 @@
 			)
 		)
 		(property "Manufacturer_Name" ""
-			(at 213.36 127 0)
+			(at 259.08 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8979,7 +9186,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" ""
-			(at 213.36 127 0)
+			(at 259.08 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8987,7 +9194,7 @@
 			)
 		)
 		(property "Mouser Part Number" ""
-			(at 213.36 127 0)
+			(at 259.08 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8995,7 +9202,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 213.36 127 0)
+			(at 259.08 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10169,6 +10376,187 @@
 			(project "bldc_driver_hw"
 				(path "/7f946e06-72d3-4343-93fe-84e8bb5001be/382e9115-8c2b-4b61-bf6e-567ae2ac3583"
 					(reference "#PWR061")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 247.65 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bfaa390b-ba20-49df-9ae7-e7872a28cf77")
+		(property "Reference" "#PWR020"
+			(at 247.65 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 247.65 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 247.65 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 247.65 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 247.65 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fa82d464-3f9d-4b64-ac5c-0ef4a5b50d67")
+		)
+		(instances
+			(project ""
+				(path "/7f946e06-72d3-4343-93fe-84e8bb5001be/382e9115-8c2b-4b61-bf6e-567ae2ac3583"
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 247.65 130.81 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c0aa42c0-f59b-4303-ae58-a007e8690cb6")
+		(property "Reference" "R19"
+			(at 245.618 130.81 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 249.682 130.556 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 247.65 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 247.65 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 247.65 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 247.65 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" ""
+			(at 247.65 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 247.65 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 247.65 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 247.65 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 247.65 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "5b250597-f9ff-47b4-95ba-10fb2925e409")
+		)
+		(pin "1"
+			(uuid "d62506aa-eb7f-4871-b307-54a535d46b08")
+		)
+		(instances
+			(project "bldc_driver_hw"
+				(path "/7f946e06-72d3-4343-93fe-84e8bb5001be/382e9115-8c2b-4b61-bf6e-567ae2ac3583"
+					(reference "R19")
 					(unit 1)
 				)
 			)
