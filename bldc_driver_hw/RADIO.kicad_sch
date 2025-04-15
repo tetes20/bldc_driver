@@ -2937,7 +2937,7 @@
 		(dnp no)
 		(uuid "00bf0daa-23ab-460e-951b-840120781300")
 		(property "Reference" "R28"
-			(at 72.136 123.444 0)
+			(at 73.406 123.444 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -2987,6 +2987,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -3130,6 +3131,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -3285,7 +3287,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "332f3b73-f829-4163-833d-6d56db09b8fd")
 		(property "Reference" "#PWR0112"
 			(at 71.12 90.17 0)
@@ -3297,7 +3298,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 71.12 81.28 0)
+			(at 71.374 82.296 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3474,6 +3475,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -3748,6 +3750,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -3891,6 +3894,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -3968,6 +3972,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -4115,6 +4120,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -4192,6 +4198,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -4270,6 +4277,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -4412,6 +4420,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -4684,11 +4693,13 @@
 			)
 		)
 		(property "LCSC" "C14663"
-			(at 80.01 121.92 0)
+			(at 82.55 124.4662 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -4766,6 +4777,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -5289,6 +5301,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -5366,6 +5379,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
