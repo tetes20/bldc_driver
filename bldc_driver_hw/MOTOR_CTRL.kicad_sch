@@ -2011,7 +2011,7 @@
 		(at 69.85 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "20f07957-48f1-43a2-8b9b-4e083c48fc86")
@@ -2080,7 +2080,7 @@
 		(at 54.61 30.48 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "23c58b5b-8171-4dd4-8ca5-4dd1c5b48a56")
@@ -2215,7 +2215,7 @@
 		(at 109.22 172.72 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -2265,7 +2265,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25804"
+		(property "LCSC" ""
 			(at 109.22 172.72 0)
 			(effects
 				(font
@@ -2293,7 +2293,7 @@
 		(at 135.89 172.72 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -2343,7 +2343,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25804"
+		(property "LCSC" ""
 			(at 135.89 172.72 0)
 			(effects
 				(font
@@ -2485,11 +2485,12 @@
 			)
 		)
 		(property "LCSC" "C25804"
-			(at 135.89 185.42 0)
+			(at 132.08 186.436 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -2512,7 +2513,7 @@
 		(at 66.04 30.48 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "609c0e91-ce15-43f7-976c-9f5791d9a7d4")
@@ -2695,11 +2696,12 @@
 			)
 		)
 		(property "LCSC" "C25804"
-			(at 109.22 185.42 0)
+			(at 104.902 185.928 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -2788,7 +2790,7 @@
 		(at 168.91 82.55 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "a39120a6-b922-44dc-aafe-b98468c36064")
@@ -2855,7 +2857,7 @@
 		(at 168.91 142.24 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "abcc947d-52a9-4ee6-90d9-59edf64c004b")
@@ -3053,7 +3055,7 @@
 		(at 168.91 113.03 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "d792faec-ad11-43f7-af51-cbc74cf1e348")
@@ -3185,7 +3187,7 @@
 		(at 43.18 30.48 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "fb65b1f7-b890-4950-b104-58238e137f63")

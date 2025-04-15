@@ -2697,7 +2697,7 @@
 		(at 219.71 58.42 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp yes)
 		(uuid "01671876-6707-4817-a0fb-055f75060421")
@@ -2822,7 +2822,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C15402"
+		(property "LCSC" "C17477"
 			(at 116.332 40.132 90)
 			(effects
 				(font
@@ -2906,7 +2906,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C15402"
+		(property "LCSC" "C17477"
 			(at 113.792 72.644 0)
 			(effects
 				(font
@@ -2943,7 +2943,7 @@
 		(at 149.86 81.28 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp yes)
 		(uuid "20db3148-e912-48c3-bc29-10df77ea3419")
@@ -3067,7 +3067,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25803"
+		(property "LCSC" "C149504"
 			(at 118.872 85.344 0)
 			(effects
 				(font
@@ -3436,7 +3436,7 @@
 		(at 121.92 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "561da5e2-6592-4be3-ae3b-0c87faa1935b")
@@ -4253,7 +4253,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25803"
+		(property "LCSC" "C149504"
 			(at 128.27 58.42 0)
 			(effects
 				(font
@@ -4608,7 +4608,7 @@
 		(at 135.89 54.61 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -4690,7 +4690,7 @@
 		(at 219.71 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp yes)
 		(fields_autoplaced yes)
@@ -4841,7 +4841,7 @@
 		(at 177.8 62.23 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "ae8dbe6e-1d77-4b73-89e5-d64ef9371d7d")
@@ -4918,7 +4918,7 @@
 		(at 72.39 62.23 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -5012,7 +5012,7 @@
 		(at 121.92 48.26 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "bf5aab19-eae0-4ed6-a847-65bd77005c1e")
@@ -5087,7 +5087,7 @@
 		(at 135.89 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -5257,7 +5257,7 @@
 		(at 219.71 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp yes)
 		(fields_autoplaced yes)
@@ -5335,7 +5335,7 @@
 		(at 149.86 55.88 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp yes)
 		(uuid "d4d4e98d-e178-4536-af30-2acd1d9c3a87")
@@ -5412,7 +5412,7 @@
 		(at 177.8 52.07 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "d90cb37c-88da-4912-be10-95d96a4f2774")
@@ -5489,7 +5489,7 @@
 		(at 219.71 50.8 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp yes)
 		(uuid "e44e1075-3bcc-4885-82d4-0f7bca49d541")
@@ -5566,7 +5566,7 @@
 		(at 177.8 57.15 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "e49084ec-e794-490c-ade8-49c9b26698c0")

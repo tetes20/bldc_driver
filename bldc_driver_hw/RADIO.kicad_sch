@@ -3349,7 +3349,7 @@
 		(at 78.74 45.72 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -4044,6 +4044,14 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C318884"
+			(at 66.04 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "dc08422f-f156-49bc-88f3-a458c0fc10b0")
 		)
@@ -4622,6 +4630,14 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C318884"
+			(at 73.66 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "6aa97f74-b7df-422b-8ab9-a12ca275a196")
 		)
@@ -4800,7 +4816,7 @@
 		(at 109.22 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "b393164e-309a-46b1-8867-92c8992c8afd")
