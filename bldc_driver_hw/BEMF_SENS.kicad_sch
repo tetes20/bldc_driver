@@ -2374,7 +2374,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Quad 1.8V Low-Power Open-Drain Output Comparator, SOIC-14/TSSOP-14"
+		(property "Description" "Quad 1.8V Low-Power Open-Drain Output Comparator, SOIC-14"
 			(at 205.74 40.64 0)
 			(effects
 				(font
@@ -2983,7 +2983,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Quad 1.8V Low-Power Open-Drain Output Comparator, SOIC-14/TSSOP-14"
+		(property "Description" "Quad 1.8V Low-Power Open-Drain Output Comparator, SOIC-14"
 			(at 134.62 116.84 0)
 			(effects
 				(font
@@ -3382,7 +3382,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Quad 1.8V Low-Power Open-Drain Output Comparator, SOIC-14/TSSOP-14"
+		(property "Description" "Quad 1.8V Low-Power Open-Drain Output Comparator, SOIC-14"
 			(at 139.7 52.07 0)
 			(effects
 				(font
@@ -4277,7 +4277,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Quad 1.8V Low-Power Open-Drain Output Comparator, SOIC-14/TSSOP-14"
+		(property "Description" "Quad 1.8V Low-Power Open-Drain Output Comparator, SOIC-14"
 			(at 138.43 83.82 0)
 			(effects
 				(font
@@ -4446,7 +4446,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Quad 1.8V Low-Power Open-Drain Output Comparator, SOIC-14/TSSOP-14"
+		(property "Description" "Quad 1.8V Low-Power Open-Drain Output Comparator, SOIC-14"
 			(at 133.35 142.24 0)
 			(effects
 				(font
