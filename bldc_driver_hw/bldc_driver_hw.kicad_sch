@@ -7011,15 +7011,15 @@
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x03")
 		(at 273.05 97.79 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "78429c35-0264-4ea5-b3cb-3723f2588ab3")
 		(property "Reference" "J10"
-			(at 275.59 96.5199 0)
+			(at 275.59 99.0601 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7028,7 +7028,7 @@
 			)
 		)
 		(property "Value" "MR60_F"
-			(at 275.59 99.0599 0)
+			(at 275.59 96.5201 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7036,7 +7036,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "bldc_driver_footprint:MR60-F"
+		(property "Footprint" "Connector_Phoenix_GMSTB:PhoenixContact_GMSTBVA_2,5_3-G_1x03_P7.50mm_Vertical"
 			(at 273.05 97.79 0)
 			(effects
 				(font

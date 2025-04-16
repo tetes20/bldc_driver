@@ -715,7 +715,7 @@
 		)
 	)
 	(embedded_fonts no)
-	(model "C:/Users/Tetes/Downloads/ESP32-C6-MINI-1-H4/ESP32-C6-MINI-1-H4.step"
+	(model "${KIPRJMOD}/3d_model/ESP32-C6-MINI-1-H4.step"
 		(offset
 			(xyz 0 0 0)
 		)
