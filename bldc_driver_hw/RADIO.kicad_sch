@@ -2423,6 +2423,16 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 102.87) (xy 142.24 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c333570-58f8-4e14-a031-f3230161182e")
+	)
+	(wire
+		(pts
 			(xy 60.96 78.74) (xy 60.96 77.47)
 		)
 		(stroke
@@ -2513,7 +2523,17 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 102.87) (xy 142.24 102.87)
+			(xy 137.16 100.33) (xy 142.24 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55816514-9232-4f0c-a867-7e40f0fde13c")
+	)
+	(wire
+		(pts
+			(xy 124.46 102.87) (xy 132.08 102.87)
 		)
 		(stroke
 			(width 0)
@@ -2583,7 +2603,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 100.33) (xy 142.24 100.33)
+			(xy 124.46 100.33) (xy 132.08 100.33)
 		)
 		(stroke
 			(width 0)
@@ -3000,6 +3020,82 @@
 			(project "bldc_driver_hw"
 				(path "/7f946e06-72d3-4343-93fe-84e8bb5001be/b1c55804-10de-45a9-b77e-813878bb2e3e"
 					(reference "R28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 134.62 102.87 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "07659bef-bf64-49e6-8035-0cd9d0e6ad20")
+		(property "Reference" "R20"
+			(at 134.62 104.902 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 134.62 106.934 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 134.62 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 134.62 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 134.62 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17168"
+			(at 134.62 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a7d09dd8-2147-454b-a332-29714fb23dfa")
+		)
+		(pin "1"
+			(uuid "d60203e7-58ad-4049-8468-a38bd51b3c1b")
+		)
+		(instances
+			(project "bldc_driver_hw"
+				(path "/7f946e06-72d3-4343-93fe-84e8bb5001be/b1c55804-10de-45a9-b77e-813878bb2e3e"
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -4062,6 +4158,82 @@
 			(project ""
 				(path "/7f946e06-72d3-4343-93fe-84e8bb5001be/b1c55804-10de-45a9-b77e-813878bb2e3e"
 					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 134.62 100.33 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "66e52c3d-6b56-4084-adb9-2260412dbbeb")
+		(property "Reference" "R19"
+			(at 134.874 96.266 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 134.874 98.298 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 134.62 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 134.62 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 134.62 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17168"
+			(at 134.62 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4e946aff-33da-463c-a17f-a31a0f5cfc48")
+		)
+		(pin "1"
+			(uuid "b5bb0d8b-3809-4e6b-bb93-62e9ad0439a5")
+		)
+		(instances
+			(project "bldc_driver_hw"
+				(path "/7f946e06-72d3-4343-93fe-84e8bb5001be/b1c55804-10de-45a9-b77e-813878bb2e3e"
+					(reference "R19")
 					(unit 1)
 				)
 			)

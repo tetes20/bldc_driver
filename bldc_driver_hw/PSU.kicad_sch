@@ -6243,7 +6243,7 @@
 		(at 34.29 30.48 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -7750,7 +7750,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C28233"
 			(at 44.45 30.48 0)
 			(effects
 				(font
@@ -8507,16 +8507,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "5A sat"
-			(at 107.95 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "LMLP0506M4R7DTAS"
+		(property "Description" "LMLP0506M4R7DTAS 5A sat"
 			(at 107.95 100.33 0)
 			(effects
 				(font
@@ -9749,7 +9740,7 @@
 		(at 22.86 30.48 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
